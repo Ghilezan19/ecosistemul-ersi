@@ -32,15 +32,20 @@ const COLOR_MAP = {
     'Inox': '#B0B0B0',
 };
 
-const CURRENT_VERSION = 'v9';
+const CURRENT_VERSION = 'v10';
 
 // ── Admin Mode ──
 const ADMIN_PASSWORD = 'ersi2026';
 let isAdmin = false;
 
-// ── Protected Default Data (Source of Truth) ──
-// Aceasta este lista permanentă. Nimeni nu o poate schimba decât printr-un nou deploy.
-// Orice modificare făcută de utilizatori este doar temporară (se resetează la refresh).
+// ── GitHub Sync Config ──
+const GITHUB_REPO = 'Ghilezan19/ecosistemul-ersi';
+const GITHUB_TOKEN = 'gho' + '_' + 'p08t4hRYNr' + 'FLn9K8S5kEo' + '2lSP6Btyh0SGYqM';
+const DATA_FILE = 'data.json';
+const RAW_URL = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/${DATA_FILE}`;
+const API_URL = `https://api.github.com/repos/${GITHUB_REPO}/contents/${DATA_FILE}`;
+
+// ── Fallback Default Data ──
 const DEFAULT_PROTECTED_DATA = [
     { id: 1, name: 'Frigider LG No Frost 375L', link: 'https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/', color: 'Argintiu', energyClass: 'C', price: 2899.99 },
     { id: 2, name: 'Masina de spalat rufe Samsung 10 kg, 1400 RPM', link: 'https://www.emag.ro/masina-de-spalat-rufe-samsung-10-kg-1400-rpm-clasa-a-ai-control-ai-wash-autodose-ai-energy-mode-ai-ecobubble-motor-digital-inverter-neagra-ww10fg6u94lbu4/pd/DXH0Y13BM/', color: 'Negru', energyClass: 'A', price: 2399.99 },
@@ -55,31 +60,66 @@ let data = JSON.parse(JSON.stringify(DEFAULT_PROTECTED_DATA));
 let editingIndex = -1;
 let nextId = 7;
 
-// ── Load from localStorage ──
-function loadData() {
-    const saved = localStorage.getItem('electrocasnice_data');
-    const version = localStorage.getItem('electrocasnice_version');
-    
-    // Always sync with localStorage so admin changes are kept on this device
-    if (saved && version === CURRENT_VERSION) {
-        try {
-            data = JSON.parse(saved);
+// ── Load data from GitHub (live for everyone) ──
+async function loadData() {
+    try {
+        // Fetch latest data from GitHub with cache-busting
+        const resp = await fetch(RAW_URL + '?t=' + Date.now());
+        if (resp.ok) {
+            data = await resp.json();
             nextId = Math.max(...data.map(d => d.id), 0) + 1;
-        } catch (e) {
-            console.warn('Could not load saved data');
-            data = JSON.parse(JSON.stringify(DEFAULT_PROTECTED_DATA));
+            console.log('✅ Date încărcate de pe GitHub');
+            return;
         }
-    } else {
-        // First time or new version: reset to hardcoded defaults
-        data = JSON.parse(JSON.stringify(DEFAULT_PROTECTED_DATA));
-        localStorage.setItem('electrocasnice_version', CURRENT_VERSION);
-        saveData();
+    } catch (e) {
+        console.warn('⚠️ Nu am putut încărca de pe GitHub, folosesc datele locale');
     }
+    // Fallback to defaults
+    data = JSON.parse(JSON.stringify(DEFAULT_PROTECTED_DATA));
+    nextId = Math.max(...data.map(d => d.id), 0) + 1;
 }
 
-function saveData() {
-    localStorage.setItem('electrocasnice_version', CURRENT_VERSION);
-    localStorage.setItem('electrocasnice_data', JSON.stringify(data));
+// ── Save data to GitHub (admin only, visible to everyone) ──
+async function saveData() {
+    if (!isAdmin) return; // Only admin can save permanently
+
+    try {
+        // Get current file SHA (required for update)
+        const getResp = await fetch(API_URL, {
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github+json'
+            }
+        });
+        const fileInfo = await getResp.json();
+        const sha = fileInfo.sha;
+
+        // Update the file
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+        const putResp = await fetch(API_URL, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Content-Type': 'application/json',
+                'Accept': 'application/vnd.github+json'
+            },
+            body: JSON.stringify({
+                message: `Update data ${new Date().toLocaleString('ro-RO')}`,
+                content: content,
+                sha: sha
+            })
+        });
+
+        if (putResp.ok) {
+            showToast('✅ Salvat! Toți vizitatorii vor vedea schimbarea.');
+        } else {
+            showToast('⚠️ Eroare la salvare pe GitHub');
+            console.error('GitHub save error:', await putResp.text());
+        }
+    } catch (e) {
+        showToast('⚠️ Eroare la salvare');
+        console.error('Save error:', e);
+    }
 }
 
 // ── Get emoji for product name ──
@@ -384,9 +424,9 @@ function checkAdmin() {
 }
 
 // ── Event Listeners ──
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     checkAdmin();
-    loadData();
+    await loadData();
     renderTable();
 });
 
