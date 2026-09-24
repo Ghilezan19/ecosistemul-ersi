@@ -63,16 +63,18 @@ let nextId = 7;
 // ── Load data from GitHub (live for everyone) ──
 async function loadData() {
     try {
-        // Fetch latest data from GitHub with cache-busting
-        const resp = await fetch(RAW_URL + '?t=' + Date.now());
+        // Fetch latest data from GitHub API (avoids 5-min raw cache)
+        const resp = await fetch(API_URL + '?t=' + Date.now(), {
+            headers: { 'Accept': 'application/vnd.github.v3.raw' }
+        });
         if (resp.ok) {
             data = await resp.json();
             nextId = Math.max(...data.map(d => d.id), 0) + 1;
-            console.log('✅ Date încărcate de pe GitHub');
+            console.log('✅ Date încărcate de pe GitHub API');
             return;
         }
     } catch (e) {
-        console.warn('⚠️ Nu am putut încărca de pe GitHub, folosesc datele locale');
+        console.warn('⚠️ Nu am putut încărca de pe GitHub API, folosesc datele locale');
     }
     // Fallback to defaults
     data = JSON.parse(JSON.stringify(DEFAULT_PROTECTED_DATA));
