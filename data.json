@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Frigider LG No Frost 375L",
+    "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
+    "color": "Argintiu",
+    "energyClass": "C",
+    "price": 2899.99
+  },
+  {
+    "id": 2,
+    "name": "Masina de spalat rufe Samsung 10 kg, 1400 RPM",
+    "link": "https://www.emag.ro/masina-de-spalat-rufe-samsung-10-kg-1400-rpm-clasa-a-ai-control-ai-wash-autodose-ai-energy-mode-ai-ecobubble-motor-digital-inverter-neagra-ww10fg6u94lbu4/pd/DXH0Y13BM/",
+    "color": "Negru",
+    "energyClass": "A",
+    "price": 2399.99
+  },
+  {
+    "id": 3,
+    "name": "Masina de spalat vase incorporabila Bosch 14 seturi",
+    "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-extradry-variohinge-ecosilence-drive-tab-count-status-light-home-connect-60-cm-clasa-a-sbh4ecx28e/pd/D8PMY5YBM/",
+    "color": "Incorporabil",
+    "energyClass": "A",
+    "price": 2899.99
+  },
+  {
+    "id": 4,
+    "name": "Cuptor incorporabil Bosch 71 L",
+    "link": "https://www.emag.ro/cuptor-incorporabil-bosch-71-l-electric-multifunctional-grill-soft-close-air-fry-10-functii-autopilot30-suport-telescopic-3d-hotair-autocuratare-pirolitica-hidrolitica-clasa-a-negru-hbg578eb3/pd/DFXMY5YBM/",
+    "color": "Negru",
+    "energyClass": "A+",
+    "price": 3149.99
+  },
+  {
+    "id": 5,
+    "name": "Plita incorporabila inductie Bosch 60 cm",
+    "link": "https://www.emag.ro/plita-incorporabila-bosch-inductie-4-zone-de-gatit-touchselect-powerboost-restart-temporizator-60-cm-negru-pue611bb6e/pd/DKB99FMBM/",
+    "color": "Negru",
+    "energyClass": "",
+    "price": 2099.99
+  },
+  {
+    "id": 6,
+    "name": "Aspirator Robot Roborock Q10 S5+ 10000 Pa",
+    "link": "https://www.emag.ro/aspirator-robot-roborock-q10-s5-set-10000-pa-sistem-de-taiere-vibrarise-2-0-dublu-sistem-anti-incalcira-evitarea-obstacolelor-navigatie-precisense-lidar-control-prin-app-negru-emag-q10s5plus5-p1-n/pd/DQ9SZ32BM/?ref=fam#Negru-gri",
+    "color": "Negru gri",
+    "energyClass": "",
+    "price": 1499.99
+  }
+]
