@@ -275,6 +275,26 @@ const DEFAULT_PROTECTED_DATA = [
                     "800 W, 2 viteze",
                     "Bol 2,3 L + blender 1 L"
                 ]
+            },
+            {
+                "label": "Bosch MUM Serie 2",
+                "badge": "Planetar la jumătate de preț",
+                "name": "Robot de bucătărie Bosch MUMS2ER01, planetar 700 W, bol 3,8 L",
+                "link": "https://www.flanco.ro/robot-de-bucatarie-bosch-mums2er01-700-w-4-viteze-bol-3-8-l-rosu.html",
+                "image": "https://www.flanco.ro/media/catalog/product/cache/2cafcb67b0fc0b3723ab4cbf183dca3c/m/u/mums2er01-1.jpg",
+                "color": "Rosu",
+                "energyClass": "N/A",
+                "price": 599.99,
+                "prevPrice": null,
+                "rrp": 799.99,
+                "note": "",
+                "checked": "2026-11-03",
+                "features": [
+                    "Mixare planetară 3D (inclusiv aluaturi grele)",
+                    "700 W, 4 viteze",
+                    "Bol 3,8 L",
+                    "Cel mai compact robot Bosch"
+                ]
             }
         ]
     }
