@@ -265,65 +265,25 @@ const DEFAULT_PROTECTED_DATA = [
         "id": 10,
         "section": "mici",
         "selected": 0,
-        "alternatives": [
-            {
-                "label": "DX700 Pro",
-                "badge": "Cel mai puternic",
-                "name": "Aspirator vertical cu fir Deerma DX700 Pro, 650 W, 16.000 Pa",
-                "link": "https://www.emag.ro/aspirator-vertical-deerma-cu-fir-650w-16000pa-capacitate-colectare-0-8l-negru-dx700-pro/pd/DYZSC33BM/",
-                "image": "https://s13emagst.akamaized.net/products/89271/89270857/images/res_c9d818b823818dfddeaa6721ed098922.png?width=450&height=450&hash=B68A987B3D4FA5677241EA685337A07C",
-                "color": "Negru",
-                "energyClass": "N/A",
-                "price": 154.99,
-                "prevPrice": null,
-                "rrp": 185.13,
-                "note": "",
-                "checked": "2026-11-03",
-                "features": [
-                    "650 W, 16.000 Pa",
-                    "Recipient praf 0,8 L",
-                    "Vertical + aspirator de mână"
-                ]
-            },
-            {
-                "label": "Rowenta",
-                "badge": "Aspirator clasic, foarte popular",
-                "name": "Aspirator fără sac Rowenta Compact Power Cyclonic RO3731EA, 750 W, 1,5 L",
-                "link": "https://www.emag.ro/aspirator-fara-sac-rowenta-compact-power-cyclonic-750-w-recipient-praf-1-5l-motor-effitech-filtru-de-inalta-eficienta-sistem-cleanexpress-raza-de-operare-8-8m-negru-albastru-ro3731ea/pd/D181S3BBM/",
-                "image": "https://s13emagst.akamaized.net/products/3301/3300004/images/res_5fa9edc1c51c68a34219df392a533592.jpg?width=450&height=450&hash=FFFDD7C1E5BB302991889B3E763556EA",
-                "color": "Negru/Albastru",
-                "energyClass": "N/A",
-                "price": 399.99,
-                "prevPrice": null,
-                "rrp": 679.99,
-                "note": "Resigilat: 349,99 lei",
-                "checked": "2026-11-03",
-                "features": [
-                    "Aspirator clasic pe roți, fără sac",
-                    "750 W, motor EffiTech",
-                    "Recipient praf 1,5 L",
-                    "Rază de lucru 8,8 m",
-                    "Rating 4,5 (aprox. 3.000 de review-uri)"
-                ]
-            }
-        ],
-        "label": "DX700S",
-        "badge": "2 în 1, filtru HEPA",
-        "name": "Aspirator vertical cu fir Deerma DX700S, 600 W, filtru HEPA",
-        "link": "https://www.emag.ro/aspirator-vertical-deerma-dx700s-multifunctional-putere-600w-capacitate-recipient-praf-0-8-l-cablu-4-5-m-filtru-hepa-2-75-kg-gri-dx700s/pd/D882D4MBM/",
-        "image": "https://s13emagst.akamaized.net/products/46360/46359536/images/res_daad4466785b4f3d1c927ded3bf1109d.jpg?width=450&height=450&hash=8D6BB76CE49B0AC0CFA8E86794A9B810",
-        "color": "Gri",
+        "alternatives": [],
+        "label": "Rowenta",
+        "badge": "Aspirator clasic, foarte popular",
+        "name": "Aspirator fără sac Rowenta Compact Power Cyclonic RO3731EA, 750 W, 1,5 L",
+        "link": "https://www.emag.ro/aspirator-fara-sac-rowenta-compact-power-cyclonic-750-w-recipient-praf-1-5l-motor-effitech-filtru-de-inalta-eficienta-sistem-cleanexpress-raza-de-operare-8-8m-negru-albastru-ro3731ea/pd/D181S3BBM/",
+        "image": "https://s13emagst.akamaized.net/products/3301/3300004/images/res_5fa9edc1c51c68a34219df392a533592.jpg?width=450&height=450&hash=FFFDD7C1E5BB302991889B3E763556EA",
+        "color": "Negru/Albastru",
         "energyClass": "N/A",
-        "price": 139.99,
+        "price": 399.99,
         "prevPrice": null,
-        "rrp": 180.98,
-        "note": "",
+        "rrp": 679.99,
+        "note": "Resigilat: 349,99 lei",
         "checked": "2026-11-03",
         "features": [
-            "600 W",
-            "Filtru HEPA",
-            "Cablu 4,5 m, 2,75 kg",
-            "Rating 4,65 (494 review-uri)"
+            "Aspirator clasic pe roți, fără sac",
+            "750 W, motor EffiTech",
+            "Recipient praf 1,5 L",
+            "Rază de lucru 8,8 m",
+            "Rating 4,5 (aprox. 3.000 de review-uri)"
         ]
     },
     {
@@ -382,7 +342,9 @@ let nextId = 7;
 async function loadData() {
     const t = Date.now();
     const sources = [
-        { url: API_URL + '?t=' + t, headers: { 'Accept': 'application/vnd.github.v3.raw' } },
+        { url: API_URL + '?t=' + t, headers: isAdmin
+            ? { 'Accept': 'application/vnd.github.v3.raw', 'Authorization': `Bearer ${GITHUB_TOKEN}` }
+            : { 'Accept': 'application/vnd.github.v3.raw' } },
         { url: 'data.json?t=' + t },   // same file served by GitHub Pages (~1 min behind)
         { url: RAW_URL + '?t=' + t },  // raw.githubusercontent (up to ~5 min behind)
     ];
@@ -393,6 +355,7 @@ async function loadData() {
             const json = await resp.json();
             if (!Array.isArray(json) || !json.length) continue;
             data = json;
+            baseJSON = JSON.stringify(json);
             nextId = Math.max(...data.map(d => d.id), 0) + 1;
             return;
         } catch (e) { /* try the next source */ }
@@ -403,21 +366,39 @@ async function loadData() {
 }
 
 // ── Save data to GitHub (admin only, visible to everyone) ──
-async function saveData() {
-    if (!isAdmin) return; // Only admin can save permanently
+// baseJSON = the list as it was on GitHub when this page loaded / last saved.
+// Before writing we check GitHub still has exactly that; if someone else
+// changed it in the meantime we reload instead of overwriting their change.
+let baseJSON = null;
+let saveChain = Promise.resolve();
 
+function saveData() {
+    if (!isAdmin) return Promise.resolve(); // Only admin can save permanently
+    saveChain = saveChain.then(doSave, doSave);
+    return saveChain;
+}
+
+async function doSave() {
     try {
-        // Get current file SHA (required for update)
-        const getResp = await fetch(API_URL, {
-            headers: {
-                'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                'Accept': 'application/vnd.github+json'
-            }
+        const getResp = await fetch(API_URL + '?t=' + Date.now(), {
+            headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github+json' },
+            cache: 'no-store'
         });
+        if (!getResp.ok) throw new Error('GET ' + getResp.status);
         const fileInfo = await getResp.json();
-        const sha = fileInfo.sha;
+        const remoteText = decodeURIComponent(escape(atob(String(fileInfo.content).replace(/\n/g, ''))));
+        let remoteJSON = null;
+        try { remoteJSON = JSON.stringify(JSON.parse(remoteText)); } catch (e) { /* unreadable */ }
+        const mine = JSON.stringify(data);
 
-        // Update the file
+        if (remoteJSON === mine) { baseJSON = mine; return; } // nothing to save
+        if (baseJSON === null || remoteJSON !== baseJSON) {
+            showToast('⚠️ Lista a fost modificată între timp. Reîncarc pagina ca să nu pierzi schimbările…');
+            setTimeout(() => location.reload(), 2500);
+            isAdmin = false; // stop further saves from this stale page
+            return;
+        }
+
         const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
         const putResp = await fetch(API_URL, {
             method: 'PUT',
@@ -429,12 +410,17 @@ async function saveData() {
             body: JSON.stringify({
                 message: `Update data ${new Date().toLocaleString('ro-RO')}`,
                 content: content,
-                sha: sha
+                sha: fileInfo.sha
             })
         });
 
         if (putResp.ok) {
+            baseJSON = mine;
             showToast('✅ Salvat! Toți vizitatorii vor vedea schimbarea.');
+        } else if (putResp.status === 409) {
+            showToast('⚠️ Lista a fost modificată între timp. Reîncarc pagina…');
+            isAdmin = false;
+            setTimeout(() => location.reload(), 2500);
         } else {
             showToast('⚠️ Eroare la salvare pe GitHub');
             console.error('GitHub save error:', await putResp.text());
