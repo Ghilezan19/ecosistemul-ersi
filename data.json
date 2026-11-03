@@ -1,28 +1,5 @@
 [
   {
-    "id": 2,
-    "section": "mari",
-    "selected": 0,
-    "alternatives": [],
-    "label": "LG",
-    "name": "Masina de spalat rufe LG F4X5011TBB 11 kg, 1400 RPM, Direct Drive, Steam",
-    "link": "https://www.emag.ro/masina-de-spalat-rufe-frontala-lg-direct-drive-steam-turbowash-wi-fi-11-kg-aidd-1400rpm-clasa-a-gri-inchis-f4x5011tbb/pd/DVX15C2BM/",
-    "image": "https://s13emagst.akamaized.net/products/133785/133784114/images/res_41c02009a922bec75370f30288dfcf87.jpg?width=450&height=450&hash=76655263269AC9018D38B5D075C7EA18",
-    "color": "Gri inchis",
-    "energyClass": "A",
-    "price": 2499.99,
-    "prevPrice": null,
-    "rrp": 2979.99,
-    "note": "",
-    "checked": "2026-11-03",
-    "features": [
-      "11 kg, 1400 rpm",
-      "Direct Drive cu AI DD",
-      "Abur (Steam) + TurboWash",
-      "Wi-Fi"
-    ]
-  },
-  {
     "id": 6,
     "section": "mari",
     "alternatives": [],
@@ -45,6 +22,29 @@
     "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
     "prevPrice": null,
     "checked": "2026-11-03"
+  },
+  {
+    "id": 2,
+    "section": "mari",
+    "selected": 0,
+    "alternatives": [],
+    "label": "LG",
+    "name": "Masina de spalat rufe LG F4X5011TBB 11 kg, 1400 RPM, Direct Drive, Steam",
+    "link": "https://www.emag.ro/masina-de-spalat-rufe-frontala-lg-direct-drive-steam-turbowash-wi-fi-11-kg-aidd-1400rpm-clasa-a-gri-inchis-f4x5011tbb/pd/DVX15C2BM/",
+    "image": "https://s13emagst.akamaized.net/products/133785/133784114/images/res_41c02009a922bec75370f30288dfcf87.jpg?width=450&height=450&hash=76655263269AC9018D38B5D075C7EA18",
+    "color": "Gri inchis",
+    "energyClass": "A",
+    "price": 2499.99,
+    "prevPrice": null,
+    "rrp": 2979.99,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "11 kg, 1400 rpm",
+      "Direct Drive cu AI DD",
+      "Abur (Steam) + TurboWash",
+      "Wi-Fi"
+    ]
   },
   {
     "id": 1,
