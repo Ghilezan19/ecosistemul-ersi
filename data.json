@@ -3,48 +3,78 @@
     "id": 1,
     "name": "Frigider LG No Frost 375L",
     "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
+    "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
     "color": "Argintiu",
     "energyClass": "C",
-    "price": 2899.99
+    "price": 2879.99,
+    "prevPrice": 2899.99,
+    "rrp": null,
+    "note": "",
+    "checked": "2026-11-03"
   },
   {
     "id": 2,
     "name": "Masina de spalat rufe Samsung 10 kg, 1400 RPM",
     "link": "https://www.emag.ro/masina-de-spalat-rufe-samsung-10-kg-1400-rpm-clasa-a-ai-control-ai-wash-autodose-ai-energy-mode-ai-ecobubble-motor-digital-inverter-neagra-ww10fg6u94lbu4/pd/DXH0Y13BM/",
+    "image": "https://s13emagst.akamaized.net/products/107198/107197982/images/res_fa3a0f09a5c36704480a15eb9466a5b1.jpg?width=450&height=450&hash=B95F888FE9FC320D85AEB1BA295C6C2E",
     "color": "Negru",
     "energyClass": "A",
-    "price": 2399.99
+    "price": 2398.99,
+    "prevPrice": 2399.99,
+    "rrp": null,
+    "note": "Resigilat: 2.229,99 lei",
+    "checked": "2026-11-03"
   },
   {
     "id": 3,
     "name": "Masina de spalat vase incorporabila Bosch 14 seturi",
     "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-extradry-variohinge-ecosilence-drive-tab-count-status-light-home-connect-60-cm-clasa-a-sbh4ecx28e/pd/D8PMY5YBM/",
+    "image": "https://s13emagst.akamaized.net/products/81331/81330791/images/res_74be6fb877f9ab598829dd68e6626814.jpg?width=450&height=450&hash=684D2365A9E12F4541333A7ECA356A45",
     "color": "Incorporabil",
     "energyClass": "A",
-    "price": 2899.99
+    "price": 4384.66,
+    "prevPrice": 2899.99,
+    "rrp": null,
+    "note": "Resigilat: 2.899,99 lei",
+    "checked": "2026-11-03"
   },
   {
     "id": 4,
     "name": "Cuptor incorporabil Bosch 71 L",
     "link": "https://www.emag.ro/cuptor-incorporabil-bosch-71-l-electric-multifunctional-grill-soft-close-air-fry-10-functii-autopilot30-suport-telescopic-3d-hotair-autocuratare-pirolitica-hidrolitica-clasa-a-negru-hbg578eb3/pd/DFXMY5YBM/",
+    "image": "https://s13emagst.akamaized.net/products/81331/81330808/images/res_7101a20c67b7ec34e8f94c7fc3fa98f9.jpg?width=450&height=450&hash=8DD0000CDA440B94F932D0BC28152C90",
     "color": "Negru",
     "energyClass": "A+",
-    "price": 3149.99
+    "price": 3599.99,
+    "prevPrice": 3149.99,
+    "rrp": 4209.99,
+    "note": "",
+    "checked": "2026-11-03"
   },
   {
     "id": 5,
     "name": "Plita incorporabila inductie Bosch 60 cm",
     "link": "https://www.emag.ro/plita-incorporabila-bosch-inductie-4-zone-de-gatit-touchselect-powerboost-restart-temporizator-60-cm-negru-pue611bb6e/pd/DKB99FMBM/",
+    "image": "https://s13emagst.akamaized.net/products/42913/42912502/images/res_96db49f17bb07ca02df9fdebffb5644a.jpg?width=450&height=450&hash=8FA26792A794DD575555EE4F5FD33843",
     "color": "Negru",
     "energyClass": "N/A",
-    "price": 2099.99
+    "price": 2249.99,
+    "prevPrice": 2099.99,
+    "rrp": 3159.99,
+    "note": "",
+    "checked": "2026-11-03"
   },
   {
     "id": 6,
     "name": "Aspirator Robot Roborock Q10 S5+ 10000 Pa",
     "link": "https://www.emag.ro/aspirator-robot-roborock-q10-s5-set-10000-pa-sistem-de-taiere-vibrarise-2-0-dublu-sistem-anti-incalcira-evitarea-obstacolelor-navigatie-precisense-lidar-control-prin-app-negru-emag-q10s5plus5-p1-n/pd/DQ9SZ32BM/?ref=fam#Negru-gri",
+    "image": "https://s13emagst.akamaized.net/products/117960/117959364/images/res_c0fd1c0a47d2b378dc657576e93e274c.jpg?width=450&height=450&hash=13D332E67CC19635D1A1C8CE88276C47",
     "color": "Negru gri",
     "energyClass": "N/A",
-    "price": 1499.99
+    "price": 1499.99,
+    "prevPrice": 1499.99,
+    "rrp": 2539.79,
+    "note": "",
+    "checked": "2026-11-03"
   }
 ]
