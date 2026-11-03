@@ -19,29 +19,8 @@
       "Wi-Fi (ThinQ)",
       "Fresh Converter (zonă flexibilă)"
     ],
-    "alternatives": [
-      {
-        "label": "Samsung",
-        "badge": "Mai mare și mai ieftin",
-        "name": "Combina frigorifica Samsung RB38C600CS9 390 L, Total No Frost",
-        "color": "Inox",
-        "energyClass": "C",
-        "price": 2599,
-        "rrp": 2699,
-        "note": "",
-        "features": [
-          "390 L, Total No Frost",
-          "Compresor Digital Inverter (garanție 20 ani)",
-          "Wi-Fi + AI Energy",
-          "Înălțime 203 cm"
-        ],
-        "link": "https://www.emag.ro/combina-frigorifica-samsung-390-l-clasa-c-total-no-frost-all-around-cooling-compresor-digital-inverter-wifi-ai-energy-smart-control-h-203-cm-inox-rb38c600cs9-ef/pd/DBFR14YBM/",
-        "image": "https://s13emagst.akamaized.net/products/75515/75514884/images/res_cfedcec7c926a95f9ee92784ab7c63a0.jpg?width=450&height=450&hash=7B179FFC72543A350502DCF043D4044F",
-        "prevPrice": null,
-        "checked": "2026-11-03"
-      }
-    ],
-    "selected": 1
+    "alternatives": [],
+    "selected": 0
   },
   {
     "id": 2,
