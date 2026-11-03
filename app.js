@@ -169,66 +169,48 @@ const DEFAULT_PROTECTED_DATA = [
     {
         "id": 6,
         "section": "mari",
-        "label": "Roborock",
-        "name": "Aspirator Robot Roborock Q10 S5+ 10000 Pa",
-        "link": "https://www.emag.ro/aspirator-robot-roborock-q10-s5-set-10000-pa-sistem-de-taiere-vibrarise-2-0-dublu-sistem-anti-incalcira-evitarea-obstacolelor-navigatie-precisense-lidar-control-prin-app-negru-emag-q10s5plus5-p1-n/pd/DQ9SZ32BM/?ref=fam#Negru-gri",
-        "image": "https://s13emagst.akamaized.net/products/117960/117959364/images/res_c0fd1c0a47d2b378dc657576e93e274c.jpg?width=450&height=450&hash=13D332E67CC19635D1A1C8CE88276C47",
-        "color": "Negru gri",
+        "alternatives": [],
+        "selected": 0,
+        "label": "Mova",
+        "badge": "Același preț, stație completă",
+        "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
+        "color": "Alb",
         "energyClass": "N/A",
         "price": 1499.99,
-        "prevPrice": 1499.99,
-        "rrp": 2539.79,
+        "rrp": 2549.99,
         "note": "",
+        "features": [
+            "19.000 Pa",
+            "Stație: golire praf + spălare mopuri",
+            "Baterie 5.200 mAh, până la 260 min",
+            "Navigație laser"
+        ],
+        "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
+        "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+    },
+    {
+        "id": 9,
+        "section": "mari",
+        "label": "Bosch Serie 6",
+        "name": "Hota incorporabila Bosch DBB67DP60, 1 motor, 699 m3/h, 60 cm, negru",
+        "link": "https://altex.ro/hota-incorporabila-bosch-dbb67dp60-1-motor-699-m3-h-l-60-cm-negru/cpd/DBB67DP60/",
+        "image": "https://lcdn.altex.ro/resize/media/catalog/product/d/b/2bd48d28d1c32adea0e55139a4e6434a/dbb67dp60_01_259a18f3.jpg",
+        "color": "Negru",
+        "energyClass": "A",
+        "price": 2799.9,
+        "prevPrice": null,
+        "rrp": null,
+        "note": "Resigilat la Altex: 2.659,90 lei",
         "checked": "2026-11-03",
         "features": [
-            "10.000 Pa",
-            "Stație de autogolire",
-            "Mop vibrant VibraRise 2.0",
-            "Navigație LiDAR, anti-încâlcire"
+            "699 m³/h, 1 motor",
+            "EcoSilence Drive (silențioasă)",
+            "Touch control, Smart hood automatic",
+            "Home Connect (Wi-Fi), iluminare LED"
         ],
-        "alternatives": [
-            {
-                "label": "Mova",
-                "badge": "Același preț, stație completă",
-                "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
-                "color": "Alb",
-                "energyClass": "N/A",
-                "price": 1499.99,
-                "rrp": 2549.99,
-                "note": "",
-                "features": [
-                    "19.000 Pa",
-                    "Stație: golire praf + spălare mopuri",
-                    "Baterie 5.200 mAh, până la 260 min",
-                    "Navigație laser"
-                ],
-                "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
-                "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            },
-            {
-                "label": "Xiaomi",
-                "badge": "Cele mai multe review-uri",
-                "name": "Robot de aspirare Xiaomi X20+ cu stație de golire și spălare",
-                "color": "Alb",
-                "energyClass": "N/A",
-                "price": 1989.99,
-                "rrp": 3599.99,
-                "note": "Resigilat: 1.769,99 lei",
-                "features": [
-                    "6.000 Pa",
-                    "Aspiră și spală simultan",
-                    "Stație: golire praf + spălare mop",
-                    "Rezervor apă 4 L, 140 min"
-                ],
-                "link": "https://www.emag.ro/robot-de-aspirare-xiaomi-x20-eu-wi-fi-aspirare-spalare-simultana-statie-de-golire-75-w-autonomie-140-min-6000pa-colectare-automata-a-prafului-in-10-secunde-rezervor-de-apa-4-l-75-w-alb-bhr8124eu/pd/DG6RLFYBM/",
-                "image": "https://s13emagst.akamaized.net/products/71762/71761619/images/res_7c466fd911f8854cd4d3ee6afc9d2e91.jpg?width=450&height=450&hash=A0B2539B092E057227CCCE554DDFC6E0",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            }
-        ],
-        "selected": 2
+        "selected": 0
     },
     {
         "id": 7,
@@ -250,47 +232,7 @@ const DEFAULT_PROTECTED_DATA = [
             "Funcție grill",
             "8 programe"
         ],
-        "alternatives": [
-            {
-                "label": "Airnova",
-                "badge": "Cel mai ieftin",
-                "name": "Air fryer Airnova BiFritto 9,4 L, 2 compartimente",
-                "color": "Negru",
-                "energyClass": "N/A",
-                "price": 399.99,
-                "rrp": null,
-                "note": "",
-                "features": [
-                    "9,4 L în 2 compartimente",
-                    "2200 W",
-                    "Rating 4,9 (150+ review-uri)"
-                ],
-                "link": "https://www.emag.ro/air-fryer-airnovar-2200w-friteuza-cu-aer-cald-capacitate-9-4l-2-compartimente-negru-bifritto/pd/DJPHH93BM/",
-                "image": "https://s13emagst.akamaized.net/products/99156/99155407/images/res_eaa23ec4783f94cff4c03d1bc57fea15.jpg?width=450&height=450&hash=F771BDA9184526742A6C67F0776BAD58",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            },
-            {
-                "label": "Philips",
-                "badge": "Premium, cu abur",
-                "name": "Air fryer dublu Philips Seria 5000 NA552/00 cu abur, 9 L",
-                "color": "Negru",
-                "energyClass": "N/A",
-                "price": 999.9,
-                "rrp": null,
-                "note": "Resigilat: 939,99 lei",
-                "features": [
-                    "9 L în 2 coșuri",
-                    "Air Steam (aer cald + abur)",
-                    "12 programe, ecran tactil",
-                    "RapidAir Plus"
-                ],
-                "link": "https://www.emag.ro/friteuza-dubla-cu-aer-cald-si-abur-philips-airfryer-seria-5000-2-cosuri-de-gatit-capacitate-9l-afisaj-digital-ecran-tactil-12-programe-presetate-tehnologie-rapidair-plus-air-steam-culoare-negru-cu-man/pd/DQHJ1WYBM/",
-                "image": "https://s13emagst.akamaized.net/products/85665/85664866/images/res_e86e26db85357f35543f9a85f1c488e6.jpg?width=450&height=450&hash=F8175EA4A3A43ADE28C4EDF3E5A76528",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            }
-        ],
+        "alternatives": [],
         "selected": 0
     },
     {
@@ -523,6 +465,12 @@ function countWithPrice() {
 
 const EXT_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>';
 
+function storeName(link) {
+    const host = ((String(link).match(/https?:\/\/(?:www\.)?([^/]+)/) || [])[1] || '').toLowerCase();
+    const known = { 'emag.ro': 'eMAG', 'altex.ro': 'Altex', 'flanco.ro': 'Flanco', 'mediagalaxy.ro': 'Media Galaxy', 'cel.ro': 'CEL.ro', 'evomag.ro': 'evoMAG' };
+    return known[host] || host.split('.')[0] || 'magazin';
+}
+
 function imgFallback(img, emoji) {
     const span = document.createElement('span');
     span.className = 'fallback';
@@ -607,7 +555,7 @@ function buildCard(item, index) {
                 ${getDelta(o)}
             </div>
             <div class="card-actions">
-                ${o.link ? `<a class="btn-emag" href="${esc(o.link)}" target="_blank" rel="noopener">Vezi pe eMAG ${EXT_ICON}</a>` : ''}
+                ${o.link ? `<a class="btn-emag" href="${esc(o.link)}" target="_blank" rel="noopener">Vezi pe ${storeName(o.link)} ${EXT_ICON}</a>` : ''}
                 ${adminBtns}
             </div>
         </div>
@@ -673,7 +621,7 @@ function updateStats() {
     if (dates.length) {
         const last = new Date(dates[dates.length - 1] + 'T12:00:00');
         document.getElementById('checkedLine').textContent =
-            'Prețuri eMAG verificate pe ' + last.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
+            'Prețuri verificate pe ' + last.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
     }
 
     // Share bar
