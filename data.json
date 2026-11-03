@@ -151,26 +151,6 @@
     ],
     "alternatives": [
       {
-        "label": "Electrolux",
-        "badge": "Pirolitic la jumătate de preț",
-        "name": "Cuptor incorporabil Electrolux EOF6P76X2 72 L, pirolitic",
-        "color": "Inox",
-        "energyClass": "A+",
-        "price": 1742.39,
-        "rrp": 2419.99,
-        "note": "",
-        "features": [
-          "72 L",
-          "Autocurățare pirolitică",
-          "SurroundCook (aer cald uniform)",
-          "Fără Air Fry, culoare inox"
-        ],
-        "link": "https://www.emag.ro/cuptor-incorporabil-electrolux-electric-72-l-autocuratare-pirolitica-surroundcook-grill-timer-cu-display-electronic-clasa-a-inox-eof6p76x2/pd/DL08FCMBM/",
-        "image": "https://s13emagst.akamaized.net/products/47574/47573675/images/res_bf134c3a56ccce2bbd3bc68aade2db2b.jpg?width=450&height=450&hash=7933750F5EC3D5A1CE0B2A85F4DB8B05",
-        "prevPrice": null,
-        "checked": "2026-11-03"
-      },
-      {
         "label": "Bosch 66 L",
         "badge": "Cel mai ieftin",
         "name": "Cuptor incorporabil Bosch HBF153EB0 66 L",
@@ -191,7 +171,7 @@
         "checked": "2026-11-03"
       }
     ],
-    "selected": 1
+    "selected": 0
   },
   {
     "id": 5,
