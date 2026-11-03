@@ -653,3 +653,32 @@ body {
     letter-spacing: 0.01em;
 }
 .variant { padding: 8px 8px; }
+
+/* ── v15: admin variant tools ── */
+.variant-tools {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    padding: 8px;
+    border: 1px dashed rgba(242,181,68,0.35);
+    border-radius: 10px;
+    background: rgba(242,181,68,0.05);
+}
+.vt-label { font-size: 0.74rem; color: var(--accent); font-weight: 600; margin-right: auto; }
+.variant-tools button {
+    font: inherit;
+    font-size: 0.74rem;
+    font-weight: 600;
+    padding: 5px 9px;
+    border-radius: 7px;
+    border: 1px solid var(--line-strong);
+    background: var(--surface-2);
+    color: var(--text);
+    cursor: pointer;
+}
+.variant-tools button:hover:not(:disabled) { border-color: var(--accent); }
+.variant-tools button:disabled { opacity: 0.35; cursor: default; }
+.variant-tools .vt-danger:hover { border-color: var(--up); color: var(--up); }
+body.admin-mode .btn-emag { white-space: nowrap; font-size: 0.8rem; padding: 10px 8px; }
+body.admin-mode .action-btn { width: 34px; flex: none; }

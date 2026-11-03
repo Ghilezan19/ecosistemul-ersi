@@ -186,7 +186,27 @@
     "id": 8,
     "section": "mici",
     "selected": 0,
-    "alternatives": [],
+    "alternatives": [
+      {
+        "label": "MUM 5",
+        "badge": "Mai puternic, bol inox",
+        "name": "Robot de bucătărie Bosch MUM58720, planetar 1000 W, bol inox 3,9 L",
+        "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-bol-inox-3-9-l-blender-1-25-l-7-viteze-impulse-mixare-planetara-3d-rosu-mum58720/pd/D3PJ32BBM/",
+        "image": "https://s13emagst.akamaized.net/products/3800/3799208/images/res_bec5fd55d1a237bd5ec379769a7577a9.jpg?width=450&height=450&hash=CC1A585D5C6D1E118C1484981F499DD8",
+        "color": "Rosu",
+        "energyClass": "N/A",
+        "price": 1199.9,
+        "prevPrice": null,
+        "rrp": 1809,
+        "note": "Resigilat: 1.129,99 lei",
+        "checked": "2026-11-03",
+        "features": [
+          "Mixare planetară 3D, 1000 W, 7 viteze",
+          "Bol inox 3,9 L",
+          "Blender 1,25 L"
+        ]
+      }
+    ],
     "label": "MUM 2",
     "badge": "Cu blender + tocător carne",
     "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",

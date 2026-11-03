@@ -418,6 +418,83 @@ function chooseOption(index, sel) {
     if (isAdmin) saveData();
 }
 
+// ── Admin: variant order / add / remove, product order ──
+const META_KEYS = ['id', 'section', 'selected', 'alternatives', 'placeholder'];
+let pendingNewVariant = null;
+
+function setOptions(item, opts) {
+    Object.keys(item).forEach(k => { if (!META_KEYS.includes(k)) delete item[k]; });
+    const first = { ...opts[0] };
+    META_KEYS.forEach(k => delete first[k]);
+    Object.assign(item, first);
+    const rest = opts.slice(1).map(o => { const c = { ...o }; META_KEYS.forEach(k => delete c[k]); return c; });
+    if (rest.length) item.alternatives = rest; else delete item.alternatives;
+}
+
+function setSel(item, sel) {
+    item.selected = sel;
+    try { localStorage.setItem('ersi-sel-' + item.id, String(sel)); } catch (e) { /* ignore */ }
+}
+
+function moveVariant(index, dir) {
+    const item = data[index];
+    const opts = options(item).map(o => ({ ...o }));
+    const from = getSel(item);
+    const to = dir === 'first' ? 0 : from + dir;
+    if (to < 0 || to >= opts.length || to === from) return;
+    const [moved] = opts.splice(from, 1);
+    opts.splice(to, 0, moved);
+    setOptions(item, opts);
+    setSel(item, to);
+    renderTable();
+}
+
+function addVariant(index) {
+    const item = data[index];
+    const opts = options(item).map(o => ({ ...o }));
+    opts.push({ name: '', link: '', image: '', color: '', energyClass: '', price: null, prevPrice: null, rrp: null, note: '', checked: new Date().toISOString().slice(0, 10) });
+    setOptions(item, opts);
+    setSel(item, opts.length - 1);
+    pendingNewVariant = { id: item.id };
+    editRow(index);
+    document.getElementById('modalTitle').textContent = 'Variantă nouă';
+}
+
+function removeVariant(index) {
+    const item = data[index];
+    const opts = options(item).map(o => ({ ...o }));
+    if (opts.length < 2) return;
+    const sel = getSel(item);
+    if (!confirm(`Scoți varianta "${opts[sel].label || opts[sel].name}"?`)) return;
+    opts.splice(sel, 1);
+    setOptions(item, opts);
+    setSel(item, 0);
+    renderTable();
+}
+
+function moveProduct(index, dir) {
+    const item = data[index];
+    const sec = item.section || 'mari';
+    let j = index + dir;
+    while (j >= 0 && j < data.length && (data[j].section || 'mari') !== sec) j += dir;
+    if (j < 0 || j >= data.length) return;
+    [data[index], data[j]] = [data[j], data[index]];
+    renderTable();
+}
+
+function variantTools(index, opts, sel) {
+    if (!isAdmin) return '';
+    const multi = opts.length > 1;
+    return `<div class="variant-tools">
+        ${multi ? `<span class="vt-label">Varianta ${sel + 1} din ${opts.length}</span>
+        <button type="button" onclick="moveVariant(${index}, -1)" ${sel === 0 ? 'disabled' : ''} title="Mută varianta la stânga">◀</button>
+        <button type="button" onclick="moveVariant(${index}, 1)" ${sel === opts.length - 1 ? 'disabled' : ''} title="Mută varianta la dreapta">▶</button>
+        <button type="button" onclick="moveVariant(${index}, 'first')" ${sel === 0 ? 'disabled' : ''} title="Fă-o prima">Fă-o prima</button>
+        <button type="button" class="vt-danger" onclick="removeVariant(${index})" title="Scoate varianta afișată">Scoate</button>` : ''}
+        <button type="button" onclick="addVariant(${index})" title="Adaugă o variantă nouă">+ variantă</button>
+    </div>`;
+}
+
 // ── Get color dot ──
 function getColorDot(color) {
     if (!color) return '';
@@ -489,7 +566,9 @@ function buildCard(item, index) {
     card.setAttribute('data-index', index);
     card.style.animationDelay = `${index * 50}ms`;
 
-    const adminBtns = isAdmin ? `<button class="action-btn edit" onclick="editRow(${index})" title="Editează">✏️</button>
+    const adminBtns = isAdmin ? `<button class="action-btn" onclick="moveProduct(${index}, -1)" title="Mută produsul mai sus în listă">↑</button>
+                    <button class="action-btn" onclick="moveProduct(${index}, 1)" title="Mută produsul mai jos în listă">↓</button>
+                    <button class="action-btn edit" onclick="editRow(${index})" title="Editează varianta afișată">✏️</button>
                     <button class="action-btn delete" onclick="deleteRow(${index})" title="Șterge">🗑️</button>` : '';
 
     if (item.placeholder && !hasPrice(item.price) && !item.link) {
@@ -547,6 +626,7 @@ function buildCard(item, index) {
         </div>
         <div class="card-body">
             ${switcher}
+            ${variantTools(index, opts, sel)}
             <h3 class="card-title">${esc(o.name)}</h3>
             ${chips.length ? `<div class="chips">${chips.join('')}</div>` : ''}
             ${Array.isArray(o.features) && o.features.length ? `<ul class="feats">${o.features.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
@@ -661,6 +741,7 @@ function editRow(index) {
 
     document.getElementById('modalTitle').textContent = `Editează: ${item.name}`;
     document.getElementById('editName').value = item.name || '';
+    document.getElementById('editLabel').value = item.label || '';
     document.getElementById('editLink').value = item.link || '';
     document.getElementById('editImage').value = item.image || '';
     document.getElementById('editNote').value = item.note || '';
@@ -688,6 +769,7 @@ function saveEdit() {
         data.push({
             id: nextId++,
             name: name,
+            label: document.getElementById('editLabel').value.trim(),
             link: document.getElementById('editLink').value.trim(),
             color: document.getElementById('editColor').value.trim(),
             energyClass: document.getElementById('editClass').value,
@@ -701,6 +783,7 @@ function saveEdit() {
         // Editing existing (the currently chosen variant)
         const target = opt(data[editingIndex]);
         target.name = name;
+        target.label = document.getElementById('editLabel').value.trim();
         target.link = document.getElementById('editLink').value.trim();
         target.color = document.getElementById('editColor').value.trim();
         target.energyClass = document.getElementById('editClass').value;
@@ -712,8 +795,10 @@ function saveEdit() {
         target.price = newPrice;
         target.image = document.getElementById('editImage').value.trim();
         target.note = document.getElementById('editNote').value.trim();
+        if (!target.label && pendingNewVariant) target.label = name.split(/\s+/).slice(0, 2).join(' ');
     }
 
+    pendingNewVariant = null;
     closeModal();
     renderTable();
 }
@@ -862,6 +947,7 @@ function addRow() {
     editingIndex = -1;
     document.getElementById('modalTitle').textContent = 'Adaugă Produs Nou';
     document.getElementById('editName').value = '';
+    document.getElementById('editLabel').value = '';
     document.getElementById('editLink').value = '';
     document.getElementById('editImage').value = '';
     document.getElementById('editNote').value = '';
@@ -876,6 +962,23 @@ function addRow() {
 // ── Close Modal ──
 function closeModal() {
     document.getElementById('editModal').classList.remove('active');
+    if (pendingNewVariant) {
+        // Cancelled while adding a variant: drop the empty one
+        const item = data.find(d => d.id === pendingNewVariant.id);
+        pendingNewVariant = null;
+        if (item) {
+            const opts = options(item).map(o => ({ ...o }));
+            const last = opts[opts.length - 1];
+            if (opts.length > 1 && !last.name) {
+                opts.pop();
+                setOptions(item, opts);
+                setSel(item, 0);
+            }
+            editingIndex = -1;
+            renderTable();
+            return;
+        }
+    }
     editingIndex = -1;
     // Reset border
     document.getElementById('editName').style.borderColor = '';
