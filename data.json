@@ -205,5 +205,69 @@
       "Blender 1,25 L",
       "Mașină de tocat carne inclusă"
     ]
+  },
+  {
+    "id": 10,
+    "section": "mici",
+    "selected": 0,
+    "label": "Rowenta",
+    "badge": "Cel mai sigur ales",
+    "name": "Aspirator vertical fără fir Rowenta X-Pert 6.60 Animal Care RH6878WO",
+    "link": "https://www.emag.ro/aspirator-vertical-fara-fir-rowenta-x-pert-6-60-animal-care-100w-18v-autonomie-45-min-filtrare-94-perie-cu-iluminare-led-recipient-praf-0-55-l-accesorii-animal-care-functie-boost-rosu-gri-rh6878wo/pd/DJB4LXMBM/",
+    "image": "https://s13emagst.akamaized.net/products/41279/41278810/images/res_70caa3eebb519ac3c345783bbc898cee.jpg?width=450&height=450&hash=A4896EE5807A48B5DCE6DDE7CF0B1F93",
+    "color": "Rosu",
+    "energyClass": "N/A",
+    "price": 799.99,
+    "prevPrice": null,
+    "rrp": 1349.99,
+    "note": "Resigilat: 749,99 lei",
+    "checked": "2026-11-03",
+    "features": [
+      "Până la 45 min autonomie",
+      "Perie cu LED + mod Boost",
+      "Se transformă în aspirator de mână",
+      "Accesorii pentru păr de animale"
+    ],
+    "alternatives": [
+      {
+        "label": "Proscenic",
+        "badge": "Cel mai ieftin",
+        "name": "Aspirator vertical fără fir Proscenic P15, 60 kPa, 70 min",
+        "link": "https://www.emag.ro/aspirator-vertical-fara-fir-proscenic-580w-60-kpa-recipient-praf-1-5l-70-min-faruri-led-verzi-p15/pd/DMLXCX3BM/",
+        "image": "https://s13emagst.akamaized.net/products/98503/98502191/images/res_a959513d54c2eb057c2d283c63bc45fd.jpg?width=450&height=450&hash=8850348FC355B285FBC54204633414F3",
+        "color": "Gri",
+        "energyClass": "N/A",
+        "price": 688.79,
+        "prevPrice": null,
+        "rrp": 1488.29,
+        "note": "",
+        "checked": "2026-11-03",
+        "features": [
+          "Putere mare de aspirare: 60 kPa",
+          "Până la 70 min autonomie",
+          "Recipient mare de praf: 1,5 L",
+          "Lumini LED verzi (arată praful)"
+        ]
+      },
+      {
+        "label": "Xiaomi",
+        "badge": "Cel mai puternic",
+        "name": "Aspirator vertical fără fir Xiaomi G20, 25.000 Pa, 150 AW",
+        "link": "https://www.emag.ro/aspirator-vertical-fara-fir-xiaomi-g20-25-000pa-putere-maxima-de-aspirare-150aw-compartiment-pentru-praf-600-ml-alb-bhr8831eu/pd/DC7FG6YBM/",
+        "image": "https://s13emagst.akamaized.net/products/83072/83071898/images/res_33c33a43355293db482663e4b26660f1.jpg?width=450&height=450&hash=CAA0F5E0339A2A84F91A6E34E666D5CC",
+        "color": "Alb",
+        "energyClass": "N/A",
+        "price": 1044.99,
+        "prevPrice": null,
+        "rrp": 1349.99,
+        "note": "Resigilat: 889,99 lei",
+        "checked": "2026-11-03",
+        "features": [
+          "25.000 Pa / 150 AW",
+          "Recipient praf 600 ml",
+          "Ușor, se folosește și ca aspirator de mână"
+        ]
+      }
+    ]
   }
 ]

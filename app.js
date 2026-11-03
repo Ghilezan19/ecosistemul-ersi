@@ -9,6 +9,7 @@ const EMOJIS = {
     'Masina de spalat vase': '🍽️',
     'Cuptor': '🔥',
     'Plita': '🍳',
+    'Aspirator vertical': '🧹',
     'Aspirator': '🌀',
     'Televizor': '📺',
     'Congelator': '❄️',
@@ -53,27 +54,28 @@ const API_URL = `https://api.github.com/repos/${GITHUB_REPO}/contents/${DATA_FIL
 // ── Fallback Default Data ──
 const DEFAULT_PROTECTED_DATA = [
     {
-        "id": 1,
+        "id": 6,
         "section": "mari",
-        "label": "LG",
-        "name": "Frigider LG No Frost 375L",
-        "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
-        "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
-        "color": "Argintiu",
-        "energyClass": "C",
-        "price": 2879.99,
-        "prevPrice": 2899.99,
-        "rrp": null,
-        "note": "",
-        "checked": "2026-11-03",
-        "features": [
-            "375 L, No Frost",
-            "Compresor Smart Inverter",
-            "Wi-Fi (ThinQ)",
-            "Fresh Converter (zonă flexibilă)"
-        ],
         "alternatives": [],
-        "selected": 0
+        "selected": 0,
+        "label": "Mova",
+        "badge": "Același preț, stație completă",
+        "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
+        "color": "Alb",
+        "energyClass": "N/A",
+        "price": 1499.99,
+        "rrp": 2549.99,
+        "note": "",
+        "features": [
+            "19.000 Pa",
+            "Stație: golire praf + spălare mopuri",
+            "Baterie 5.200 mAh, până la 260 min",
+            "Navigație laser"
+        ],
+        "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
+        "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
+        "prevPrice": null,
+        "checked": "2026-11-03"
     },
     {
         "id": 2,
@@ -97,6 +99,29 @@ const DEFAULT_PROTECTED_DATA = [
             "Abur (Steam) + TurboWash",
             "Wi-Fi"
         ]
+    },
+    {
+        "id": 1,
+        "section": "mari",
+        "label": "LG",
+        "name": "Frigider LG No Frost 375L",
+        "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
+        "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
+        "color": "Argintiu",
+        "energyClass": "C",
+        "price": 2879.99,
+        "prevPrice": 2899.99,
+        "rrp": null,
+        "note": "",
+        "checked": "2026-11-03",
+        "features": [
+            "375 L, No Frost",
+            "Compresor Smart Inverter",
+            "Wi-Fi (ThinQ)",
+            "Fresh Converter (zonă flexibilă)"
+        ],
+        "alternatives": [],
+        "selected": 0
     },
     {
         "id": 3,
@@ -167,30 +192,6 @@ const DEFAULT_PROTECTED_DATA = [
         ]
     },
     {
-        "id": 6,
-        "section": "mari",
-        "alternatives": [],
-        "selected": 0,
-        "label": "Mova",
-        "badge": "Același preț, stație completă",
-        "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
-        "color": "Alb",
-        "energyClass": "N/A",
-        "price": 1499.99,
-        "rrp": 2549.99,
-        "note": "",
-        "features": [
-            "19.000 Pa",
-            "Stație: golire praf + spălare mopuri",
-            "Baterie 5.200 mAh, până la 260 min",
-            "Navigație laser"
-        ],
-        "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
-        "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
-        "prevPrice": null,
-        "checked": "2026-11-03"
-    },
-    {
         "id": 9,
         "section": "mari",
         "label": "Bosch Serie 6",
@@ -239,27 +240,7 @@ const DEFAULT_PROTECTED_DATA = [
         "id": 8,
         "section": "mici",
         "selected": 0,
-        "alternatives": [
-            {
-                "label": "MUM 5",
-                "badge": "Mai puternic, bol inox",
-                "name": "Robot de bucătărie Bosch MUM58720, planetar 1000 W, bol inox 3,9 L",
-                "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-bol-inox-3-9-l-blender-1-25-l-7-viteze-impulse-mixare-planetara-3d-rosu-mum58720/pd/D3PJ32BBM/",
-                "image": "https://s13emagst.akamaized.net/products/3800/3799208/images/res_bec5fd55d1a237bd5ec379769a7577a9.jpg?width=450&height=450&hash=CC1A585D5C6D1E118C1484981F499DD8",
-                "color": "Rosu",
-                "energyClass": "N/A",
-                "price": 1199.9,
-                "prevPrice": null,
-                "rrp": 1809,
-                "note": "Resigilat: 1.129,99 lei",
-                "checked": "2026-11-03",
-                "features": [
-                    "Mixare planetară 3D, 1000 W, 7 viteze",
-                    "Bol inox 3,9 L",
-                    "Blender 1,25 L"
-                ]
-            }
-        ],
+        "alternatives": [],
         "label": "MUM 2",
         "badge": "Cu blender + tocător carne",
         "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",
@@ -277,6 +258,70 @@ const DEFAULT_PROTECTED_DATA = [
             "Bol 3,8 L",
             "Blender 1,25 L",
             "Mașină de tocat carne inclusă"
+        ]
+    },
+    {
+        "id": 10,
+        "section": "mici",
+        "selected": 0,
+        "label": "Rowenta",
+        "badge": "Cel mai sigur ales",
+        "name": "Aspirator vertical fără fir Rowenta X-Pert 6.60 Animal Care RH6878WO",
+        "link": "https://www.emag.ro/aspirator-vertical-fara-fir-rowenta-x-pert-6-60-animal-care-100w-18v-autonomie-45-min-filtrare-94-perie-cu-iluminare-led-recipient-praf-0-55-l-accesorii-animal-care-functie-boost-rosu-gri-rh6878wo/pd/DJB4LXMBM/",
+        "image": "https://s13emagst.akamaized.net/products/41279/41278810/images/res_70caa3eebb519ac3c345783bbc898cee.jpg?width=450&height=450&hash=A4896EE5807A48B5DCE6DDE7CF0B1F93",
+        "color": "Rosu",
+        "energyClass": "N/A",
+        "price": 799.99,
+        "prevPrice": null,
+        "rrp": 1349.99,
+        "note": "Resigilat: 749,99 lei",
+        "checked": "2026-11-03",
+        "features": [
+            "Până la 45 min autonomie",
+            "Perie cu LED + mod Boost",
+            "Se transformă în aspirator de mână",
+            "Accesorii pentru păr de animale"
+        ],
+        "alternatives": [
+            {
+                "label": "Proscenic",
+                "badge": "Cel mai ieftin",
+                "name": "Aspirator vertical fără fir Proscenic P15, 60 kPa, 70 min",
+                "link": "https://www.emag.ro/aspirator-vertical-fara-fir-proscenic-580w-60-kpa-recipient-praf-1-5l-70-min-faruri-led-verzi-p15/pd/DMLXCX3BM/",
+                "image": "https://s13emagst.akamaized.net/products/98503/98502191/images/res_a959513d54c2eb057c2d283c63bc45fd.jpg?width=450&height=450&hash=8850348FC355B285FBC54204633414F3",
+                "color": "Gri",
+                "energyClass": "N/A",
+                "price": 688.79,
+                "prevPrice": null,
+                "rrp": 1488.29,
+                "note": "",
+                "checked": "2026-11-03",
+                "features": [
+                    "Putere mare de aspirare: 60 kPa",
+                    "Până la 70 min autonomie",
+                    "Recipient mare de praf: 1,5 L",
+                    "Lumini LED verzi (arată praful)"
+                ]
+            },
+            {
+                "label": "Xiaomi",
+                "badge": "Cel mai puternic",
+                "name": "Aspirator vertical fără fir Xiaomi G20, 25.000 Pa, 150 AW",
+                "link": "https://www.emag.ro/aspirator-vertical-fara-fir-xiaomi-g20-25-000pa-putere-maxima-de-aspirare-150aw-compartiment-pentru-praf-600-ml-alb-bhr8831eu/pd/DC7FG6YBM/",
+                "image": "https://s13emagst.akamaized.net/products/83072/83071898/images/res_33c33a43355293db482663e4b26660f1.jpg?width=450&height=450&hash=CAA0F5E0339A2A84F91A6E34E666D5CC",
+                "color": "Alb",
+                "energyClass": "N/A",
+                "price": 1044.99,
+                "prevPrice": null,
+                "rrp": 1349.99,
+                "note": "Resigilat: 889,99 lei",
+                "checked": "2026-11-03",
+                "features": [
+                    "25.000 Pa / 150 AW",
+                    "Recipient praf 600 ml",
+                    "Ușor, se folosește și ca aspirator de mână"
+                ]
+            }
         ]
     }
 ];
