@@ -72,133 +72,52 @@ const DEFAULT_PROTECTED_DATA = [
             "Wi-Fi (ThinQ)",
             "Fresh Converter (zonă flexibilă)"
         ],
-        "alternatives": [
-            {
-                "label": "Samsung",
-                "badge": "Mai mare și mai ieftin",
-                "name": "Combina frigorifica Samsung RB38C600CS9 390 L, Total No Frost",
-                "color": "Inox",
-                "energyClass": "C",
-                "price": 2599,
-                "rrp": 2699,
-                "note": "",
-                "features": [
-                    "390 L, Total No Frost",
-                    "Compresor Digital Inverter (garanție 20 ani)",
-                    "Wi-Fi + AI Energy",
-                    "Înălțime 203 cm"
-                ],
-                "link": "https://www.emag.ro/combina-frigorifica-samsung-390-l-clasa-c-total-no-frost-all-around-cooling-compresor-digital-inverter-wifi-ai-energy-smart-control-h-203-cm-inox-rb38c600cs9-ef/pd/DBFR14YBM/",
-                "image": "https://s13emagst.akamaized.net/products/75515/75514884/images/res_cfedcec7c926a95f9ee92784ab7c63a0.jpg?width=450&height=450&hash=7B179FFC72543A350502DCF043D4044F",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            },
-            {
-                "label": "Arctic",
-                "badge": "Cel mai ieftin",
-                "name": "Combina frigorifica Arctic AK60406E40NFMT 362 L, Full No Frost",
-                "color": "Argintiu",
-                "energyClass": "E",
-                "price": 2114.99,
-                "rrp": 2198.99,
-                "note": "",
-                "features": [
-                    "362 L, Full No Frost",
-                    "Fast Freeze",
-                    "Display LCD",
-                    "Clasa E (consum mai mare)"
-                ],
-                "link": "https://www.emag.ro/combina-frigorifica-arctic-362-l-full-nofrost-blue-tech-air-flow-dual-tech-fast-freeze-display-lcd-clasa-e-h-202-cm-argintiu-ak60406e40nfmt/pd/D32CK3MBM/",
-                "image": "https://s13emagst.akamaized.net/products/31658/31657389/images/res_0d3f755b1ff059e9b778d1d6dd3fc999.jpg?width=450&height=450&hash=7C918E0EB73EF6486E1160FF0D1BFD3F",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            }
-        ],
+        "alternatives": [],
         "selected": 0
     },
     {
         "id": 2,
         "section": "mari",
         "selected": 0,
-        "label": "Samsung",
-        "name": "Masina de spalat rufe Samsung 10 kg, 1400 RPM",
-        "link": "https://www.emag.ro/masina-de-spalat-rufe-samsung-10-kg-1400-rpm-clasa-a-ai-control-ai-wash-autodose-ai-energy-mode-ai-ecobubble-motor-digital-inverter-neagra-ww10fg6u94lbu4/pd/DXH0Y13BM/",
-        "image": "https://s13emagst.akamaized.net/products/107198/107197982/images/res_fa3a0f09a5c36704480a15eb9466a5b1.jpg?width=450&height=450&hash=B95F888FE9FC320D85AEB1BA295C6C2E",
-        "color": "Negru",
+        "alternatives": [],
+        "label": "LG",
+        "name": "Masina de spalat rufe LG F4X5011TBB 11 kg, 1400 RPM, Direct Drive, Steam",
+        "link": "https://www.emag.ro/masina-de-spalat-rufe-frontala-lg-direct-drive-steam-turbowash-wi-fi-11-kg-aidd-1400rpm-clasa-a-gri-inchis-f4x5011tbb/pd/DVX15C2BM/",
+        "image": "https://s13emagst.akamaized.net/products/133785/133784114/images/res_41c02009a922bec75370f30288dfcf87.jpg?width=450&height=450&hash=76655263269AC9018D38B5D075C7EA18",
+        "color": "Gri inchis",
         "energyClass": "A",
-        "price": 2398.99,
-        "prevPrice": 2399.99,
-        "rrp": null,
-        "note": "Resigilat: 2.229,99 lei",
+        "price": 2499.99,
+        "prevPrice": null,
+        "rrp": 2979.99,
+        "note": "",
         "checked": "2026-11-03",
-        "alternatives": [
-            {
-                "label": "LG",
-                "name": "Masina de spalat rufe LG F4X5011TBB 11 kg, 1400 RPM, Direct Drive, Steam",
-                "link": "https://www.emag.ro/masina-de-spalat-rufe-frontala-lg-direct-drive-steam-turbowash-wi-fi-11-kg-aidd-1400rpm-clasa-a-gri-inchis-f4x5011tbb/pd/DVX15C2BM/",
-                "image": "https://s13emagst.akamaized.net/products/133785/133784114/images/res_41c02009a922bec75370f30288dfcf87.jpg?width=450&height=450&hash=76655263269AC9018D38B5D075C7EA18",
-                "color": "Gri inchis",
-                "energyClass": "A",
-                "price": 2499.99,
-                "prevPrice": null,
-                "rrp": 2979.99,
-                "note": "",
-                "checked": "2026-11-03",
-                "features": [
-                    "11 kg, 1400 rpm",
-                    "Direct Drive cu AI DD",
-                    "Abur (Steam) + TurboWash",
-                    "Wi-Fi"
-                ]
-            }
-        ],
         "features": [
-            "10 kg, 1400 rpm",
-            "AI Wash + AutoDose (dozare automată)",
-            "EcoBubble",
-            "Motor Digital Inverter"
+            "11 kg, 1400 rpm",
+            "Direct Drive cu AI DD",
+            "Abur (Steam) + TurboWash",
+            "Wi-Fi"
         ]
     },
     {
         "id": 3,
         "section": "mari",
         "selected": 0,
-        "label": "Bosch Serie 4",
-        "name": "Masina de spalat vase incorporabila Bosch 14 seturi",
-        "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-extradry-variohinge-ecosilence-drive-tab-count-status-light-home-connect-60-cm-clasa-a-sbh4ecx28e/pd/D8PMY5YBM/",
-        "image": "https://s13emagst.akamaized.net/products/81331/81330791/images/res_74be6fb877f9ab598829dd68e6626814.jpg?width=450&height=450&hash=684D2365A9E12F4541333A7ECA356A45",
+        "alternatives": [],
+        "label": "Bosch Serie 6",
+        "name": "Masina de spalat vase incorporabila Bosch SMV6YCX02E, 14 seturi, PerfectDry",
+        "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-clasa-a-perfectdry-silence-plus-sertar-rackmatic-info-light-tab-count-home-connect-60-cm-smv6ycx02e/pd/DRS33TYBM/",
+        "image": "https://s13emagst.akamaized.net/products/63816/63815757/images/res_29895e86dffde187378214deb82d9f64.jpg?width=450&height=450&hash=BD18EB67DCAA7F7E42294DF7E5746803",
         "color": "Incorporabil",
         "energyClass": "A",
-        "price": 4384.66,
-        "prevPrice": 2899.99,
-        "rrp": null,
-        "note": "Resigilat: 2.899,99 lei",
+        "price": 3799.99,
+        "prevPrice": null,
+        "rrp": 4399.99,
+        "note": "",
         "checked": "2026-11-03",
-        "alternatives": [
-            {
-                "label": "Bosch Serie 6",
-                "name": "Masina de spalat vase incorporabila Bosch SMV6YCX02E, 14 seturi, PerfectDry",
-                "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-clasa-a-perfectdry-silence-plus-sertar-rackmatic-info-light-tab-count-home-connect-60-cm-smv6ycx02e/pd/DRS33TYBM/",
-                "image": "https://s13emagst.akamaized.net/products/63816/63815757/images/res_29895e86dffde187378214deb82d9f64.jpg?width=450&height=450&hash=BD18EB67DCAA7F7E42294DF7E5746803",
-                "color": "Incorporabil",
-                "energyClass": "A",
-                "price": 3799.99,
-                "prevPrice": null,
-                "rrp": 4399.99,
-                "note": "",
-                "checked": "2026-11-03",
-                "features": [
-                    "14 seturi, 6 programe",
-                    "PerfectDry cu zeolit (uscare foarte bună)",
-                    "Sertar Rackmatic + Silence Plus",
-                    "Home Connect"
-                ]
-            }
-        ],
         "features": [
             "14 seturi, 6 programe",
-            "ExtraDry",
-            "VarioHinge (ușă pentru mobilier înalt)",
+            "PerfectDry cu zeolit (uscare foarte bună)",
+            "Sertar Rackmatic + Silence Plus",
             "Home Connect"
         ]
     },
@@ -222,90 +141,29 @@ const DEFAULT_PROTECTED_DATA = [
             "AutoPilot 30 rețete",
             "Ghidaje telescopice, soft close"
         ],
-        "alternatives": [
-            {
-                "label": "Electrolux",
-                "badge": "Pirolitic la jumătate de preț",
-                "name": "Cuptor incorporabil Electrolux EOF6P76X2 72 L, pirolitic",
-                "color": "Inox",
-                "energyClass": "A+",
-                "price": 1742.39,
-                "rrp": 2419.99,
-                "note": "",
-                "features": [
-                    "72 L",
-                    "Autocurățare pirolitică",
-                    "SurroundCook (aer cald uniform)",
-                    "Fără Air Fry, culoare inox"
-                ],
-                "link": "https://www.emag.ro/cuptor-incorporabil-electrolux-electric-72-l-autocuratare-pirolitica-surroundcook-grill-timer-cu-display-electronic-clasa-a-inox-eof6p76x2/pd/DL08FCMBM/",
-                "image": "https://s13emagst.akamaized.net/products/47574/47573675/images/res_bf134c3a56ccce2bbd3bc68aade2db2b.jpg?width=450&height=450&hash=7933750F5EC3D5A1CE0B2A85F4DB8B05",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            },
-            {
-                "label": "Bosch 66 L",
-                "badge": "Cel mai ieftin",
-                "name": "Cuptor incorporabil Bosch HBF153EB0 66 L",
-                "color": "Negru",
-                "energyClass": "A",
-                "price": 1299.99,
-                "rrp": 1599.99,
-                "note": "",
-                "features": [
-                    "66 L",
-                    "Convecție 3D HotAir",
-                    "EcoClean Direct (doar peretele din spate)",
-                    "Ghidaj telescopic"
-                ],
-                "link": "https://www.emag.ro/cuptor-incorporabil-bosch-electric-66-l-grill-autocuratare-ecoclean-direct-suport-telescopic-convectie-3d-clasa-a-negru-argintiu-hbf153eb0/pd/DTDRP6BBM/",
-                "image": "https://s13emagst.akamaized.net/products/25317/25316777/images/res_b57806128a1a216257d4c6b5c473a729.jpg?width=450&height=450&hash=8BF3DC6446E6A697B512F70E87A16CF9",
-                "prevPrice": null,
-                "checked": "2026-11-03"
-            }
-        ],
+        "alternatives": [],
         "selected": 0
     },
     {
         "id": 5,
         "section": "mari",
         "selected": 0,
-        "label": "Bosch Serie 4",
-        "name": "Plita incorporabila inductie Bosch 60 cm",
-        "link": "https://www.emag.ro/plita-incorporabila-bosch-inductie-4-zone-de-gatit-touchselect-powerboost-restart-temporizator-60-cm-negru-pue611bb6e/pd/DKB99FMBM/",
-        "image": "https://s13emagst.akamaized.net/products/42913/42912502/images/res_96db49f17bb07ca02df9fdebffb5644a.jpg?width=450&height=450&hash=8FA26792A794DD575555EE4F5FD33843",
+        "label": "Bosch Serie 6",
+        "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction",
+        "link": "https://www.emag.ro/plita-cu-inductie-bosch-serie-6-592-mm-4-zone-flexinduction-touchslider-powerboost-perfectfry-home-connect-negru-pvs631hc1e/pd/DH5BVJ3BM/",
+        "image": "https://s13emagst.akamaized.net/products/101201/101200844/images/res_2ab837dcc9a6016fdb8eb6bdea27d003.jpg?width=450&height=450&hash=EEFA6337F1D5D54F74E819A75C15ACED",
         "color": "Negru",
         "energyClass": "N/A",
-        "price": 2249.99,
-        "prevPrice": 2099.99,
-        "rrp": 3159.99,
+        "price": 2657.39,
+        "prevPrice": null,
+        "rrp": null,
         "note": "",
         "checked": "2026-11-03",
-        "alternatives": [
-            {
-                "label": "Bosch Serie 6",
-                "name": "Plita incorporabila inductie Bosch PVS631HB1E, Combi Zone, Home Connect, 60 cm",
-                "link": "https://www.emag.ro/plita-incorporabila-bosch-inductie-4-zone-de-gatit-combi-zone-conectivitate-hota-power-boost-home-connect-60cm-negru-pvs631hb1e/pd/DNWTP3YBM/",
-                "image": "https://s13emagst.akamaized.net/products/60395/60394023/images/res_22f98b9ff3890cf9595d10a53a350b43.jpg?width=450&height=450&hash=52E9DD68304FA763FB51B475627F12F4",
-                "color": "Negru",
-                "energyClass": "N/A",
-                "price": 2599.99,
-                "prevPrice": null,
-                "rrp": 2899.99,
-                "note": "",
-                "checked": "2026-11-03",
-                "features": [
-                    "4 zone + Combi Zone (2 zone unite)",
-                    "PowerBoost",
-                    "Conectare automată cu hota",
-                    "Home Connect"
-                ]
-            }
-        ],
         "features": [
-            "4 zone inducție, 60 cm",
+            "4 zone, FlexInduction (zone unite pentru vase mari)",
             "PowerBoost",
-            "TouchSelect + temporizator"
+            "PerfectFry (senzor de prăjire)",
+            "TouchSlider + Home Connect"
         ]
     },
     {
@@ -370,7 +228,7 @@ const DEFAULT_PROTECTED_DATA = [
                 "checked": "2026-11-03"
             }
         ],
-        "selected": 0
+        "selected": 2
     },
     {
         "id": 7,

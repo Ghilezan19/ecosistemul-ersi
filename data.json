@@ -95,42 +95,22 @@
     "id": 5,
     "section": "mari",
     "selected": 0,
-    "label": "Bosch Serie 4",
-    "name": "Plita incorporabila inductie Bosch 60 cm",
-    "link": "https://www.emag.ro/plita-incorporabila-bosch-inductie-4-zone-de-gatit-touchselect-powerboost-restart-temporizator-60-cm-negru-pue611bb6e/pd/DKB99FMBM/",
-    "image": "https://s13emagst.akamaized.net/products/42913/42912502/images/res_96db49f17bb07ca02df9fdebffb5644a.jpg?width=450&height=450&hash=8FA26792A794DD575555EE4F5FD33843",
+    "label": "Bosch Serie 6",
+    "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction",
+    "link": "https://www.emag.ro/plita-cu-inductie-bosch-serie-6-592-mm-4-zone-flexinduction-touchslider-powerboost-perfectfry-home-connect-negru-pvs631hc1e/pd/DH5BVJ3BM/",
+    "image": "https://s13emagst.akamaized.net/products/101201/101200844/images/res_2ab837dcc9a6016fdb8eb6bdea27d003.jpg?width=450&height=450&hash=EEFA6337F1D5D54F74E819A75C15ACED",
     "color": "Negru",
     "energyClass": "N/A",
-    "price": 2249.99,
-    "prevPrice": 2099.99,
-    "rrp": 3159.99,
+    "price": 2657.39,
+    "prevPrice": null,
+    "rrp": null,
     "note": "",
     "checked": "2026-11-03",
-    "alternatives": [
-      {
-        "label": "Bosch Serie 6",
-        "name": "Plita incorporabila inductie Bosch PVS631HB1E, Combi Zone, Home Connect, 60 cm",
-        "link": "https://www.emag.ro/plita-incorporabila-bosch-inductie-4-zone-de-gatit-combi-zone-conectivitate-hota-power-boost-home-connect-60cm-negru-pvs631hb1e/pd/DNWTP3YBM/",
-        "image": "https://s13emagst.akamaized.net/products/60395/60394023/images/res_22f98b9ff3890cf9595d10a53a350b43.jpg?width=450&height=450&hash=52E9DD68304FA763FB51B475627F12F4",
-        "color": "Negru",
-        "energyClass": "N/A",
-        "price": 2599.99,
-        "prevPrice": null,
-        "rrp": 2899.99,
-        "note": "",
-        "checked": "2026-11-03",
-        "features": [
-          "4 zone + Combi Zone (2 zone unite)",
-          "PowerBoost",
-          "Conectare automată cu hota",
-          "Home Connect"
-        ]
-      }
-    ],
     "features": [
-      "4 zone inducție, 60 cm",
+      "4 zone, FlexInduction (zone unite pentru vase mari)",
       "PowerBoost",
-      "TouchSelect + temporizator"
+      "PerfectFry (senzor de prăjire)",
+      "TouchSlider + Home Connect"
     ]
   },
   {
