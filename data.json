@@ -116,46 +116,26 @@
   {
     "id": 6,
     "section": "mari",
-    "label": "Roborock",
-    "name": "Aspirator Robot Roborock Q10 S5+ 10000 Pa",
-    "link": "https://www.emag.ro/aspirator-robot-roborock-q10-s5-set-10000-pa-sistem-de-taiere-vibrarise-2-0-dublu-sistem-anti-incalcira-evitarea-obstacolelor-navigatie-precisense-lidar-control-prin-app-negru-emag-q10s5plus5-p1-n/pd/DQ9SZ32BM/?ref=fam#Negru-gri",
-    "image": "https://s13emagst.akamaized.net/products/117960/117959364/images/res_c0fd1c0a47d2b378dc657576e93e274c.jpg?width=450&height=450&hash=13D332E67CC19635D1A1C8CE88276C47",
-    "color": "Negru gri",
+    "alternatives": [],
+    "selected": 0,
+    "label": "Mova",
+    "badge": "Același preț, stație completă",
+    "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
+    "color": "Alb",
     "energyClass": "N/A",
     "price": 1499.99,
-    "prevPrice": 1499.99,
-    "rrp": 2539.79,
+    "rrp": 2549.99,
     "note": "",
-    "checked": "2026-11-03",
     "features": [
-      "10.000 Pa",
-      "Stație de autogolire",
-      "Mop vibrant VibraRise 2.0",
-      "Navigație LiDAR, anti-încâlcire"
+      "19.000 Pa",
+      "Stație: golire praf + spălare mopuri",
+      "Baterie 5.200 mAh, până la 260 min",
+      "Navigație laser"
     ],
-    "alternatives": [
-      {
-        "label": "Mova",
-        "badge": "Același preț, stație completă",
-        "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
-        "color": "Alb",
-        "energyClass": "N/A",
-        "price": 1499.99,
-        "rrp": 2549.99,
-        "note": "",
-        "features": [
-          "19.000 Pa",
-          "Stație: golire praf + spălare mopuri",
-          "Baterie 5.200 mAh, până la 260 min",
-          "Navigație laser"
-        ],
-        "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
-        "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
-        "prevPrice": null,
-        "checked": "2026-11-03"
-      }
-    ],
-    "selected": 0
+    "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
+    "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
+    "prevPrice": null,
+    "checked": "2026-11-03"
   },
   {
     "id": 9,
