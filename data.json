@@ -153,29 +153,9 @@
         "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
         "prevPrice": null,
         "checked": "2026-11-03"
-      },
-      {
-        "label": "Xiaomi",
-        "badge": "Cele mai multe review-uri",
-        "name": "Robot de aspirare Xiaomi X20+ cu stație de golire și spălare",
-        "color": "Alb",
-        "energyClass": "N/A",
-        "price": 1989.99,
-        "rrp": 3599.99,
-        "note": "Resigilat: 1.769,99 lei",
-        "features": [
-          "6.000 Pa",
-          "Aspiră și spală simultan",
-          "Stație: golire praf + spălare mop",
-          "Rezervor apă 4 L, 140 min"
-        ],
-        "link": "https://www.emag.ro/robot-de-aspirare-xiaomi-x20-eu-wi-fi-aspirare-spalare-simultana-statie-de-golire-75-w-autonomie-140-min-6000pa-colectare-automata-a-prafului-in-10-secunde-rezervor-de-apa-4-l-75-w-alb-bhr8124eu/pd/DG6RLFYBM/",
-        "image": "https://s13emagst.akamaized.net/products/71762/71761619/images/res_7c466fd911f8854cd4d3ee6afc9d2e91.jpg?width=450&height=450&hash=A0B2539B092E057227CCCE554DDFC6E0",
-        "prevPrice": null,
-        "checked": "2026-11-03"
       }
     ],
-    "selected": 2
+    "selected": 0
   },
   {
     "id": 9,
