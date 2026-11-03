@@ -620,3 +620,36 @@ body {
 @media (max-width: 620px) {
     .section-head { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
+
+/* ── v13: features + pick badge ── */
+.feats {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.82rem;
+    color: var(--text-2);
+    line-height: 1.35;
+}
+.feats li { position: relative; padding-left: 20px; }
+.feats li::before {
+    content: '';
+    position: absolute;
+    left: 2px; top: 4px;
+    width: 10px; height: 6px;
+    border-left: 2px solid var(--down);
+    border-bottom: 2px solid var(--down);
+    transform: rotate(-45deg);
+}
+.pick-badge {
+    position: absolute;
+    left: 12px; bottom: 12px;
+    background: rgba(11,13,18,0.86);
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 99px;
+    letter-spacing: 0.01em;
+}
+.variant { padding: 8px 8px; }

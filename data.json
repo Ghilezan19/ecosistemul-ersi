@@ -2,7 +2,7 @@
   {
     "id": 1,
     "section": "mari",
-    "label": "LG GBBS322CPY",
+    "label": "LG",
     "name": "Frigider LG No Frost 375L",
     "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
     "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
@@ -12,13 +12,62 @@
     "prevPrice": 2899.99,
     "rrp": null,
     "note": "",
-    "checked": "2026-11-03"
+    "checked": "2026-11-03",
+    "features": [
+      "375 L, No Frost",
+      "Compresor Smart Inverter",
+      "Wi-Fi (ThinQ)",
+      "Fresh Converter (zonă flexibilă)"
+    ],
+    "alternatives": [
+      {
+        "label": "Samsung",
+        "badge": "Mai mare și mai ieftin",
+        "name": "Combina frigorifica Samsung RB38C600CS9 390 L, Total No Frost",
+        "color": "Inox",
+        "energyClass": "C",
+        "price": 2599,
+        "rrp": 2699,
+        "note": "",
+        "features": [
+          "390 L, Total No Frost",
+          "Compresor Digital Inverter (garanție 20 ani)",
+          "Wi-Fi + AI Energy",
+          "Înălțime 203 cm"
+        ],
+        "link": "https://www.emag.ro/combina-frigorifica-samsung-390-l-clasa-c-total-no-frost-all-around-cooling-compresor-digital-inverter-wifi-ai-energy-smart-control-h-203-cm-inox-rb38c600cs9-ef/pd/DBFR14YBM/",
+        "image": "https://s13emagst.akamaized.net/products/75515/75514884/images/res_cfedcec7c926a95f9ee92784ab7c63a0.jpg?width=450&height=450&hash=7B179FFC72543A350502DCF043D4044F",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      },
+      {
+        "label": "Arctic",
+        "badge": "Cel mai ieftin",
+        "name": "Combina frigorifica Arctic AK60406E40NFMT 362 L, Full No Frost",
+        "color": "Argintiu",
+        "energyClass": "E",
+        "price": 2114.99,
+        "rrp": 2198.99,
+        "note": "",
+        "features": [
+          "362 L, Full No Frost",
+          "Fast Freeze",
+          "Display LCD",
+          "Clasa E (consum mai mare)"
+        ],
+        "link": "https://www.emag.ro/combina-frigorifica-arctic-362-l-full-nofrost-blue-tech-air-flow-dual-tech-fast-freeze-display-lcd-clasa-e-h-202-cm-argintiu-ak60406e40nfmt/pd/D32CK3MBM/",
+        "image": "https://s13emagst.akamaized.net/products/31658/31657389/images/res_0d3f755b1ff059e9b778d1d6dd3fc999.jpg?width=450&height=450&hash=7C918E0EB73EF6486E1160FF0D1BFD3F",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      }
+    ],
+    "selected": 0
   },
   {
     "id": 2,
     "section": "mari",
     "selected": 0,
-    "label": "Samsung 10 kg",
+    "label": "Samsung",
     "name": "Masina de spalat rufe Samsung 10 kg, 1400 RPM",
     "link": "https://www.emag.ro/masina-de-spalat-rufe-samsung-10-kg-1400-rpm-clasa-a-ai-control-ai-wash-autodose-ai-energy-mode-ai-ecobubble-motor-digital-inverter-neagra-ww10fg6u94lbu4/pd/DXH0Y13BM/",
     "image": "https://s13emagst.akamaized.net/products/107198/107197982/images/res_fa3a0f09a5c36704480a15eb9466a5b1.jpg?width=450&height=450&hash=B95F888FE9FC320D85AEB1BA295C6C2E",
@@ -31,7 +80,7 @@
     "checked": "2026-11-03",
     "alternatives": [
       {
-        "label": "LG 11 kg",
+        "label": "LG",
         "name": "Masina de spalat rufe LG F4X5011TBB 11 kg, 1400 RPM, Direct Drive, Steam",
         "link": "https://www.emag.ro/masina-de-spalat-rufe-frontala-lg-direct-drive-steam-turbowash-wi-fi-11-kg-aidd-1400rpm-clasa-a-gri-inchis-f4x5011tbb/pd/DVX15C2BM/",
         "image": "https://s13emagst.akamaized.net/products/133785/133784114/images/res_41c02009a922bec75370f30288dfcf87.jpg?width=450&height=450&hash=76655263269AC9018D38B5D075C7EA18",
@@ -41,8 +90,20 @@
         "prevPrice": null,
         "rrp": 2979.99,
         "note": "",
-        "checked": "2026-11-03"
+        "checked": "2026-11-03",
+        "features": [
+          "11 kg, 1400 rpm",
+          "Direct Drive cu AI DD",
+          "Abur (Steam) + TurboWash",
+          "Wi-Fi"
+        ]
       }
+    ],
+    "features": [
+      "10 kg, 1400 rpm",
+      "AI Wash + AutoDose (dozare automată)",
+      "EcoBubble",
+      "Motor Digital Inverter"
     ]
   },
   {
@@ -72,14 +133,26 @@
         "prevPrice": null,
         "rrp": 4399.99,
         "note": "",
-        "checked": "2026-11-03"
+        "checked": "2026-11-03",
+        "features": [
+          "14 seturi, 6 programe",
+          "PerfectDry cu zeolit (uscare foarte bună)",
+          "Sertar Rackmatic + Silence Plus",
+          "Home Connect"
+        ]
       }
+    ],
+    "features": [
+      "14 seturi, 6 programe",
+      "ExtraDry",
+      "VarioHinge (ușă pentru mobilier înalt)",
+      "Home Connect"
     ]
   },
   {
     "id": 4,
     "section": "mari",
-    "label": "Bosch HBG578EB3",
+    "label": "Bosch 71 L",
     "name": "Cuptor incorporabil Bosch 71 L",
     "link": "https://www.emag.ro/cuptor-incorporabil-bosch-71-l-electric-multifunctional-grill-soft-close-air-fry-10-functii-autopilot30-suport-telescopic-3d-hotair-autocuratare-pirolitica-hidrolitica-clasa-a-negru-hbg578eb3/pd/DFXMY5YBM/",
     "image": "https://s13emagst.akamaized.net/products/81331/81330808/images/res_7101a20c67b7ec34e8f94c7fc3fa98f9.jpg?width=450&height=450&hash=8DD0000CDA440B94F932D0BC28152C90",
@@ -89,7 +162,56 @@
     "prevPrice": 3149.99,
     "rrp": 4209.99,
     "note": "",
-    "checked": "2026-11-03"
+    "checked": "2026-11-03",
+    "features": [
+      "71 L, Air Fry + 10 funcții",
+      "Autocurățare pirolitică + hidrolitică",
+      "AutoPilot 30 rețete",
+      "Ghidaje telescopice, soft close"
+    ],
+    "alternatives": [
+      {
+        "label": "Electrolux",
+        "badge": "Pirolitic la jumătate de preț",
+        "name": "Cuptor incorporabil Electrolux EOF6P76X2 72 L, pirolitic",
+        "color": "Inox",
+        "energyClass": "A+",
+        "price": 1742.39,
+        "rrp": 2419.99,
+        "note": "",
+        "features": [
+          "72 L",
+          "Autocurățare pirolitică",
+          "SurroundCook (aer cald uniform)",
+          "Fără Air Fry, culoare inox"
+        ],
+        "link": "https://www.emag.ro/cuptor-incorporabil-electrolux-electric-72-l-autocuratare-pirolitica-surroundcook-grill-timer-cu-display-electronic-clasa-a-inox-eof6p76x2/pd/DL08FCMBM/",
+        "image": "https://s13emagst.akamaized.net/products/47574/47573675/images/res_bf134c3a56ccce2bbd3bc68aade2db2b.jpg?width=450&height=450&hash=7933750F5EC3D5A1CE0B2A85F4DB8B05",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      },
+      {
+        "label": "Bosch 66 L",
+        "badge": "Cel mai ieftin",
+        "name": "Cuptor incorporabil Bosch HBF153EB0 66 L",
+        "color": "Negru",
+        "energyClass": "A",
+        "price": 1299.99,
+        "rrp": 1599.99,
+        "note": "",
+        "features": [
+          "66 L",
+          "Convecție 3D HotAir",
+          "EcoClean Direct (doar peretele din spate)",
+          "Ghidaj telescopic"
+        ],
+        "link": "https://www.emag.ro/cuptor-incorporabil-bosch-electric-66-l-grill-autocuratare-ecoclean-direct-suport-telescopic-convectie-3d-clasa-a-negru-argintiu-hbf153eb0/pd/DTDRP6BBM/",
+        "image": "https://s13emagst.akamaized.net/products/25317/25316777/images/res_b57806128a1a216257d4c6b5c473a729.jpg?width=450&height=450&hash=8BF3DC6446E6A697B512F70E87A16CF9",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      }
+    ],
+    "selected": 0
   },
   {
     "id": 5,
@@ -118,14 +240,25 @@
         "prevPrice": null,
         "rrp": 2899.99,
         "note": "",
-        "checked": "2026-11-03"
+        "checked": "2026-11-03",
+        "features": [
+          "4 zone + Combi Zone (2 zone unite)",
+          "PowerBoost",
+          "Conectare automată cu hota",
+          "Home Connect"
+        ]
       }
+    ],
+    "features": [
+      "4 zone inducție, 60 cm",
+      "PowerBoost",
+      "TouchSelect + temporizator"
     ]
   },
   {
     "id": 6,
     "section": "mari",
-    "label": "Roborock Q10 S5+",
+    "label": "Roborock",
     "name": "Aspirator Robot Roborock Q10 S5+ 10000 Pa",
     "link": "https://www.emag.ro/aspirator-robot-roborock-q10-s5-set-10000-pa-sistem-de-taiere-vibrarise-2-0-dublu-sistem-anti-incalcira-evitarea-obstacolelor-navigatie-precisense-lidar-control-prin-app-negru-emag-q10s5plus5-p1-n/pd/DQ9SZ32BM/?ref=fam#Negru-gri",
     "image": "https://s13emagst.akamaized.net/products/117960/117959364/images/res_c0fd1c0a47d2b378dc657576e93e274c.jpg?width=450&height=450&hash=13D332E67CC19635D1A1C8CE88276C47",
@@ -135,12 +268,61 @@
     "prevPrice": 1499.99,
     "rrp": 2539.79,
     "note": "",
-    "checked": "2026-11-03"
+    "checked": "2026-11-03",
+    "features": [
+      "10.000 Pa",
+      "Stație de autogolire",
+      "Mop vibrant VibraRise 2.0",
+      "Navigație LiDAR, anti-încâlcire"
+    ],
+    "alternatives": [
+      {
+        "label": "Mova",
+        "badge": "Același preț, stație completă",
+        "name": "Robot de aspirare cu mop Mova E40 Ultra 19.000 Pa",
+        "color": "Alb",
+        "energyClass": "N/A",
+        "price": 1499.99,
+        "rrp": 2549.99,
+        "note": "",
+        "features": [
+          "19.000 Pa",
+          "Stație: golire praf + spălare mopuri",
+          "Baterie 5.200 mAh, până la 260 min",
+          "Navigație laser"
+        ],
+        "link": "https://www.emag.ro/robot-de-aspirare-cu-mop-mova-e40-ultra-19-000-pa-5-200-mah-autonomie-260-min-single-line-laser-statie-colectare-inteligenta-alb-rle22se/pd/D7D3CW3BM/",
+        "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      },
+      {
+        "label": "Xiaomi",
+        "badge": "Cele mai multe review-uri",
+        "name": "Robot de aspirare Xiaomi X20+ cu stație de golire și spălare",
+        "color": "Alb",
+        "energyClass": "N/A",
+        "price": 1989.99,
+        "rrp": 3599.99,
+        "note": "Resigilat: 1.769,99 lei",
+        "features": [
+          "6.000 Pa",
+          "Aspiră și spală simultan",
+          "Stație: golire praf + spălare mop",
+          "Rezervor apă 4 L, 140 min"
+        ],
+        "link": "https://www.emag.ro/robot-de-aspirare-xiaomi-x20-eu-wi-fi-aspirare-spalare-simultana-statie-de-golire-75-w-autonomie-140-min-6000pa-colectare-automata-a-prafului-in-10-secunde-rezervor-de-apa-4-l-75-w-alb-bhr8124eu/pd/DG6RLFYBM/",
+        "image": "https://s13emagst.akamaized.net/products/71762/71761619/images/res_7c466fd911f8854cd4d3ee6afc9d2e91.jpg?width=450&height=450&hash=A0B2539B092E057227CCCE554DDFC6E0",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      }
+    ],
+    "selected": 0
   },
   {
     "id": 7,
     "section": "mici",
-    "label": "Tefal EY905B10",
+    "label": "Tefal",
     "name": "Air fryer dublu Tefal Dual Easy Fry & Grill EY905B10, 8.3 L, 2700 W",
     "link": "https://www.emag.ro/friteuza-dubla-cu-aer-cald-tefal-dual-easy-fry-grill-air-fryer-2700-w-capacitate-8-3-l-functie-grill-8-programe-vase-detasabile-antiaderente-tehnologie-extra-crisp-temperatura-reglabila-40-200-c-displ/pd/DGBY1YYBM/",
     "image": "https://s13emagst.akamaized.net/products/59793/59792488/images/res_d5d1a78601788337d85d837cc1dc6cbd.jpg?width=450&height=450&hash=97FBE05402D14B0578F7F413C7B0C9F2",
@@ -150,20 +332,97 @@
     "prevPrice": null,
     "rrp": 1349.99,
     "note": "Resigilat: 529,99 lei",
-    "checked": "2026-11-03"
+    "checked": "2026-11-03",
+    "features": [
+      "8,3 L în 2 sertare",
+      "2700 W",
+      "Funcție grill",
+      "8 programe"
+    ],
+    "alternatives": [
+      {
+        "label": "Airnova",
+        "badge": "Cel mai ieftin",
+        "name": "Air fryer Airnova BiFritto 9,4 L, 2 compartimente",
+        "color": "Negru",
+        "energyClass": "N/A",
+        "price": 399.99,
+        "rrp": null,
+        "note": "",
+        "features": [
+          "9,4 L în 2 compartimente",
+          "2200 W",
+          "Rating 4,9 (150+ review-uri)"
+        ],
+        "link": "https://www.emag.ro/air-fryer-airnovar-2200w-friteuza-cu-aer-cald-capacitate-9-4l-2-compartimente-negru-bifritto/pd/DJPHH93BM/",
+        "image": "https://s13emagst.akamaized.net/products/99156/99155407/images/res_eaa23ec4783f94cff4c03d1bc57fea15.jpg?width=450&height=450&hash=F771BDA9184526742A6C67F0776BAD58",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      },
+      {
+        "label": "Philips",
+        "badge": "Premium, cu abur",
+        "name": "Air fryer dublu Philips Seria 5000 NA552/00 cu abur, 9 L",
+        "color": "Negru",
+        "energyClass": "N/A",
+        "price": 999.9,
+        "rrp": null,
+        "note": "Resigilat: 939,99 lei",
+        "features": [
+          "9 L în 2 coșuri",
+          "Air Steam (aer cald + abur)",
+          "12 programe, ecran tactil",
+          "RapidAir Plus"
+        ],
+        "link": "https://www.emag.ro/friteuza-dubla-cu-aer-cald-si-abur-philips-airfryer-seria-5000-2-cosuri-de-gatit-capacitate-9l-afisaj-digital-ecran-tactil-12-programe-presetate-tehnologie-rapidair-plus-air-steam-culoare-negru-cu-man/pd/DQHJ1WYBM/",
+        "image": "https://s13emagst.akamaized.net/products/85665/85664866/images/res_e86e26db85357f35543f9a85f1c488e6.jpg?width=450&height=450&hash=F8175EA4A3A43ADE28C4EDF3E5A76528",
+        "prevPrice": null,
+        "checked": "2026-11-03"
+      }
+    ],
+    "selected": 0
   },
   {
     "id": 8,
     "section": "mici",
-    "name": "Robot de bucătărie",
-    "link": "",
-    "image": "",
-    "color": "",
-    "energyClass": "",
-    "price": null,
+    "name": "Robot de bucătărie Bosch MUM58720, planetar 1000 W, bol inox 3,9 L",
+    "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-bol-inox-3-9-l-blender-1-25-l-7-viteze-impulse-mixare-planetara-3d-rosu-mum58720/pd/D3PJ32BBM/",
+    "image": "https://s13emagst.akamaized.net/products/3800/3799208/images/res_bec5fd55d1a237bd5ec379769a7577a9.jpg?width=450&height=450&hash=CC1A585D5C6D1E118C1484981F499DD8",
+    "color": "Rosu",
+    "energyClass": "N/A",
+    "price": 1199.9,
     "prevPrice": null,
-    "rrp": null,
-    "note": "",
-    "placeholder": true
+    "rrp": 1809,
+    "note": "Resigilat: 1.129,99 lei",
+    "label": "Bosch MUM5",
+    "badge": "Mixer planetar",
+    "checked": "2026-11-03",
+    "selected": 0,
+    "features": [
+      "Mixare planetară 3D (aluat, frișcă)",
+      "1000 W, 7 viteze",
+      "Bol inox 3,9 L + blender 1,25 L"
+    ],
+    "alternatives": [
+      {
+        "label": "Bosch MCM3",
+        "badge": "Procesor compact",
+        "name": "Robot de bucătărie Bosch MultiTalent 3 MCM3200W, 800 W",
+        "link": "https://www.emag.ro/robot-de-bucatarie-bosch-multitalent-3-800-w-capacitate-2-3l-blender-1l-2-trepte-de-viteza-peste-30-de-functii-gri-alb-mcm3200w/pd/DXWTJYBBM/",
+        "image": "https://s13emagst.akamaized.net/products/2332/2331368/images/res_d900b337e0dbcabd26dc57da3c58bfba.jpg?width=450&height=450&hash=5D2A25FACED532BE615073BA8E34F2D5",
+        "color": "Alb",
+        "energyClass": "N/A",
+        "price": 339.99,
+        "prevPrice": null,
+        "rrp": 619,
+        "note": "Resigilat: 319,99 lei",
+        "checked": "2026-11-03",
+        "features": [
+          "Tocare, feliere, răzuire (30+ funcții)",
+          "800 W, 2 viteze",
+          "Bol 2,3 L + blender 1 L"
+        ]
+      }
+    ]
   }
 ]
