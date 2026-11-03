@@ -69,29 +69,6 @@
     ]
   },
   {
-    "id": 4,
-    "section": "mari",
-    "label": "Bosch 71 L",
-    "name": "Cuptor incorporabil Bosch 71 L",
-    "link": "https://www.emag.ro/cuptor-incorporabil-bosch-71-l-electric-multifunctional-grill-soft-close-air-fry-10-functii-autopilot30-suport-telescopic-3d-hotair-autocuratare-pirolitica-hidrolitica-clasa-a-negru-hbg578eb3/pd/DFXMY5YBM/",
-    "image": "https://s13emagst.akamaized.net/products/81331/81330808/images/res_7101a20c67b7ec34e8f94c7fc3fa98f9.jpg?width=450&height=450&hash=8DD0000CDA440B94F932D0BC28152C90",
-    "color": "Negru",
-    "energyClass": "A+",
-    "price": 3599.99,
-    "prevPrice": 3149.99,
-    "rrp": 4209.99,
-    "note": "",
-    "checked": "2026-11-03",
-    "features": [
-      "71 L, Air Fry + 10 funcții",
-      "Autocurățare pirolitică + hidrolitică",
-      "AutoPilot 30 rețete",
-      "Ghidaje telescopice, soft close"
-    ],
-    "alternatives": [],
-    "selected": 0
-  },
-  {
     "id": 6,
     "section": "mari",
     "alternatives": [],
@@ -114,6 +91,29 @@
     "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
     "prevPrice": null,
     "checked": "2026-11-03"
+  },
+  {
+    "id": 4,
+    "section": "mari",
+    "label": "Bosch 71 L",
+    "name": "Cuptor incorporabil Bosch 71 L",
+    "link": "https://www.emag.ro/cuptor-incorporabil-bosch-71-l-electric-multifunctional-grill-soft-close-air-fry-10-functii-autopilot30-suport-telescopic-3d-hotair-autocuratare-pirolitica-hidrolitica-clasa-a-negru-hbg578eb3/pd/DFXMY5YBM/",
+    "image": "https://s13emagst.akamaized.net/products/81331/81330808/images/res_7101a20c67b7ec34e8f94c7fc3fa98f9.jpg?width=450&height=450&hash=8DD0000CDA440B94F932D0BC28152C90",
+    "color": "Negru",
+    "energyClass": "A+",
+    "price": 3599.99,
+    "prevPrice": 3149.99,
+    "rrp": 4209.99,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "71 L, Air Fry + 10 funcții",
+      "Autocurățare pirolitică + hidrolitică",
+      "AutoPilot 30 rețete",
+      "Ghidaje telescopice, soft close"
+    ],
+    "alternatives": [],
+    "selected": 0
   },
   {
     "id": 5,
