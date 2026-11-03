@@ -114,28 +114,6 @@
     ]
   },
   {
-    "id": 9,
-    "section": "mari",
-    "label": "Bosch Serie 6",
-    "name": "Hota incorporabila Bosch DBB67DP60, 1 motor, 699 m3/h, 60 cm, negru",
-    "link": "https://altex.ro/hota-incorporabila-bosch-dbb67dp60-1-motor-699-m3-h-l-60-cm-negru/cpd/DBB67DP60/",
-    "image": "https://lcdn.altex.ro/resize/media/catalog/product/d/b/2bd48d28d1c32adea0e55139a4e6434a/dbb67dp60_01_259a18f3.jpg",
-    "color": "Negru",
-    "energyClass": "A",
-    "price": 2799.9,
-    "prevPrice": null,
-    "rrp": null,
-    "note": "Resigilat la Altex: 2.659,90 lei",
-    "checked": "2026-11-03",
-    "features": [
-      "699 m³/h, 1 motor",
-      "EcoSilence Drive (silențioasă)",
-      "Touch control, Smart hood automatic",
-      "Home Connect (Wi-Fi), iluminare LED"
-    ],
-    "selected": 0
-  },
-  {
     "id": 6,
     "section": "mari",
     "alternatives": [],
@@ -158,6 +136,28 @@
     "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
     "prevPrice": null,
     "checked": "2026-11-03"
+  },
+  {
+    "id": 9,
+    "section": "mari",
+    "label": "Bosch Serie 6",
+    "name": "Hota incorporabila Bosch DBB67DP60, 1 motor, 699 m3/h, 60 cm, negru",
+    "link": "https://altex.ro/hota-incorporabila-bosch-dbb67dp60-1-motor-699-m3-h-l-60-cm-negru/cpd/DBB67DP60/",
+    "image": "https://lcdn.altex.ro/resize/media/catalog/product/d/b/2bd48d28d1c32adea0e55139a4e6434a/dbb67dp60_01_259a18f3.jpg",
+    "color": "Negru",
+    "energyClass": "A",
+    "price": 2799.9,
+    "prevPrice": null,
+    "rrp": null,
+    "note": "Resigilat la Altex: 2.659,90 lei",
+    "checked": "2026-11-03",
+    "features": [
+      "699 m³/h, 1 motor",
+      "EcoSilence Drive (silențioasă)",
+      "Touch control, Smart hood automatic",
+      "Home Connect (Wi-Fi), iluminare LED"
+    ],
+    "selected": 0
   },
   {
     "id": 7,
