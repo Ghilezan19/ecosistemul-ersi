@@ -247,7 +247,7 @@ const DEFAULT_PROTECTED_DATA = [
         "prevPrice": null,
         "rrp": 1809,
         "note": "Resigilat: 1.129,99 lei",
-        "label": "Bosch MUM5",
+        "label": "MUM 5 · 1000W",
         "badge": "Mixer planetar",
         "checked": "2026-11-03",
         "selected": 0,
@@ -258,7 +258,7 @@ const DEFAULT_PROTECTED_DATA = [
         ],
         "alternatives": [
             {
-                "label": "Bosch MCM3",
+                "label": "MCM 3 · procesor",
                 "badge": "Procesor compact",
                 "name": "Robot de bucătărie Bosch MultiTalent 3 MCM3200W, 800 W",
                 "link": "https://www.emag.ro/robot-de-bucatarie-bosch-multitalent-3-800-w-capacitate-2-3l-blender-1l-2-trepte-de-viteza-peste-30-de-functii-gri-alb-mcm3200w/pd/DXWTJYBBM/",
@@ -277,7 +277,7 @@ const DEFAULT_PROTECTED_DATA = [
                 ]
             },
             {
-                "label": "Bosch MUM Serie 2",
+                "label": "MUM 2 · 700W",
                 "badge": "Planetar la jumătate de preț",
                 "name": "Robot de bucătărie Bosch MUMS2ER01, planetar 700 W, bol 3,8 L",
                 "link": "https://www.flanco.ro/robot-de-bucatarie-bosch-mums2er01-700-w-4-viteze-bol-3-8-l-rosu.html",
