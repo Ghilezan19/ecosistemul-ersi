@@ -23,29 +23,6 @@
     ]
   },
   {
-    "id": 1,
-    "section": "mari",
-    "label": "LG",
-    "name": "Frigider LG No Frost 375L",
-    "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
-    "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
-    "color": "Argintiu",
-    "energyClass": "C",
-    "price": 2879.99,
-    "prevPrice": 2899.99,
-    "rrp": null,
-    "note": "",
-    "checked": "2026-11-03",
-    "features": [
-      "375 L, No Frost",
-      "Compresor Smart Inverter",
-      "Wi-Fi (ThinQ)",
-      "Fresh Converter (zonă flexibilă)"
-    ],
-    "alternatives": [],
-    "selected": 0
-  },
-  {
     "id": 6,
     "section": "mari",
     "alternatives": [],
@@ -68,6 +45,29 @@
     "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
     "prevPrice": null,
     "checked": "2026-11-03"
+  },
+  {
+    "id": 1,
+    "section": "mari",
+    "label": "LG",
+    "name": "Frigider LG No Frost 375L",
+    "link": "https://www.emag.ro/combina-frigorifica-lg-no-frost-375-l-wi-fi-compresor-smart-inverter-fresh-converter-argintiu-cls-c-gbbs322cpy/pd/DZ7L783BM/",
+    "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
+    "color": "Argintiu",
+    "energyClass": "C",
+    "price": 2879.99,
+    "prevPrice": 2899.99,
+    "rrp": null,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "375 L, No Frost",
+      "Compresor Smart Inverter",
+      "Wi-Fi (ThinQ)",
+      "Fresh Converter (zonă flexibilă)"
+    ],
+    "alternatives": [],
+    "selected": 0
   },
   {
     "id": 3,
