@@ -37,7 +37,7 @@ const COLOR_MAP = {
     'Inox': '#B0B0B0',
 };
 
-const CURRENT_VERSION = 'v13';
+const CURRENT_VERSION = 'v14';
 
 // ── Admin Mode ──
 const ADMIN_PASSWORD = 'ersi2026';
@@ -910,13 +910,17 @@ function saveEdit() {
 let pendingDeleteIndex = -1;
 let lastDeletedItem = null;
 let lastDeletedIndex = -1;
+let lastDeleteWasVariant = false;
 
 function deleteRow(index) {
     pendingDeleteIndex = index;
     const item = data[index];
+    const opts = options(item);
     const textEl = document.getElementById('deleteConfirmText');
     if (textEl) {
-        textEl.innerHTML = `Ești sigur că vrei să ștergi <strong>"${item.name}"</strong>?`;
+        textEl.innerHTML = opts.length > 1
+            ? `Ștergi doar varianta <strong>"${esc(opt(item).name)}"</strong>? Celelalte ${opts.length - 1} rămân.`
+            : `Ești sigur că vrei să ștergi <strong>"${esc(item.name)}"</strong>?`;
     }
     const modal = document.getElementById('confirmDeleteModal');
     if (modal) modal.classList.add('active');
@@ -928,31 +932,56 @@ function closeConfirmDelete() {
     pendingDeleteIndex = -1;
 }
 
+// Fields that belong to the product slot, not to a single variant
+const SLOT_KEYS = ['id', 'section', 'placeholder', 'alternatives', 'selected'];
+
+// Remove only the chosen variant; variant 0 is the item itself, so the next one takes its place
+function removeVariant(item, sel) {
+    const alts = Array.isArray(item.alternatives) ? item.alternatives.slice() : [];
+    if (sel > 0) {
+        alts.splice(sel - 1, 1);
+        item.alternatives = alts;
+    } else {
+        const promoted = alts.shift();
+        Object.keys(item).forEach(k => { if (!SLOT_KEYS.includes(k)) delete item[k]; });
+        Object.assign(item, promoted);
+        item.alternatives = alts;
+    }
+    item.selected = 0;
+    try { localStorage.removeItem('ersi-sel-' + item.id); } catch (e) { /* ignore */ }
+}
+
 function executeDelete() {
     if (pendingDeleteIndex < 0 || pendingDeleteIndex >= data.length) return;
     const index = pendingDeleteIndex;
     const item = data[index];
     closeConfirmDelete();
 
+    const sel = getSel(item);
+    const variantMode = options(item).length > 1;
+    const removedName = variantMode ? opt(item).name : item.name;
+
     const row = document.querySelector(`[data-index="${index}"]`);
-    if (row) {
-        row.classList.add('row-deleting');
-        setTimeout(() => {
-            lastDeletedItem = item;
-            lastDeletedIndex = index;
-            data.splice(index, 1);
-            renderTable();
-            showUndoToast(`Ai șters "${item.name}".`);
-        }, 300);
-    }
+    if (row) row.classList.add('row-deleting');
+    setTimeout(() => {
+        lastDeletedItem = JSON.parse(JSON.stringify(item));
+        lastDeletedIndex = index;
+        lastDeleteWasVariant = variantMode;
+        if (variantMode) removeVariant(item, sel);
+        else data.splice(index, 1);
+        renderTable();
+        showUndoToast(variantMode ? `Ai șters varianta "${removedName}".` : `Ai șters "${removedName}".`);
+    }, row ? 300 : 0);
 }
 
 function undoDelete() {
     if (lastDeletedItem) {
-        data.splice(lastDeletedIndex, 0, lastDeletedItem);
+        if (lastDeleteWasVariant) data[lastDeletedIndex] = lastDeletedItem;
+        else data.splice(lastDeletedIndex, 0, lastDeletedItem);
         const restoredName = lastDeletedItem.name;
         lastDeletedItem = null;
         lastDeletedIndex = -1;
+        lastDeleteWasVariant = false;
         renderTable();
         const toast = document.querySelector('.toast-undo');
         if (toast) toast.remove();
