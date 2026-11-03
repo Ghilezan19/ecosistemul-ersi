@@ -278,22 +278,22 @@ const DEFAULT_PROTECTED_DATA = [
             },
             {
                 "label": "MUM 2",
-                "badge": "Planetar la jumătate de preț",
-                "name": "Robot de bucătărie Bosch MUMS2ER01, planetar 700 W, bol 3,8 L",
-                "link": "https://www.flanco.ro/robot-de-bucatarie-bosch-mums2er01-700-w-4-viteze-bol-3-8-l-rosu.html",
-                "image": "https://www.flanco.ro/media/catalog/product/cache/2cafcb67b0fc0b3723ab4cbf183dca3c/m/u/mums2er01-1.jpg",
-                "color": "Rosu",
+                "badge": "Cu blender + tocător carne",
+                "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",
+                "link": "https://www.emag.ro/robot-de-bucatarie-bosch-mum-serie-2-700-w-3-8-l-blender-1-25-l-masina-de-tocat-carne-4-trepte-viteza-alb-mums2ew40/pd/DBLM0DMBM/",
+                "image": "https://s13emagst.akamaized.net/products/34470/34469799/images/res_4f16effd21ba744ce81c1e26412075e9.jpg?width=450&height=450&hash=697D17EDF9A30DD82B7E99B84E227262",
+                "color": "Alb",
                 "energyClass": "N/A",
-                "price": 599.99,
+                "price": 899.99,
                 "prevPrice": null,
-                "rrp": 799.99,
-                "note": "",
+                "rrp": 999.99,
+                "note": "Stoc limitat pe eMAG",
                 "checked": "2026-11-03",
                 "features": [
-                    "Mixare planetară 3D (inclusiv aluaturi grele)",
-                    "700 W, 4 viteze",
+                    "Mixare planetară 3D, 700 W, 4 viteze",
                     "Bol 3,8 L",
-                    "Cel mai compact robot Bosch"
+                    "Blender 1,25 L",
+                    "Mașină de tocat carne inclusă"
                 ]
             }
         ]
