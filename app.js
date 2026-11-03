@@ -37,7 +37,7 @@ const COLOR_MAP = {
     'Inox': '#B0B0B0',
 };
 
-const CURRENT_VERSION = 'v14';
+const CURRENT_VERSION = 'v15';
 
 // ── Admin Mode ──
 const ADMIN_PASSWORD = 'ersi2026';
@@ -486,22 +486,27 @@ let editingIndex = -1;
 let nextId = 7;
 
 // ── Load data from GitHub (live for everyone) ──
+// The GitHub API is freshest but allows only 60 requests/hour per network,
+// so fall back to the copies that have no such limit before using the built-in list.
 async function loadData() {
-    try {
-        // Fetch latest data from GitHub API (avoids 5-min raw cache)
-        const resp = await fetch(API_URL + '?t=' + Date.now(), {
-            headers: { 'Accept': 'application/vnd.github.v3.raw' }
-        });
-        if (resp.ok) {
-            data = await resp.json();
+    const t = Date.now();
+    const sources = [
+        { url: API_URL + '?t=' + t, headers: { 'Accept': 'application/vnd.github.v3.raw' } },
+        { url: 'data.json?t=' + t },   // same file served by GitHub Pages (~1 min behind)
+        { url: RAW_URL + '?t=' + t },  // raw.githubusercontent (up to ~5 min behind)
+    ];
+    for (const src of sources) {
+        try {
+            const resp = await fetch(src.url, { headers: src.headers || {}, cache: 'no-store' });
+            if (!resp.ok) continue;
+            const json = await resp.json();
+            if (!Array.isArray(json) || !json.length) continue;
+            data = json;
             nextId = Math.max(...data.map(d => d.id), 0) + 1;
-            console.log('✅ Date încărcate de pe GitHub API');
             return;
-        }
-    } catch (e) {
-        console.warn('⚠️ Nu am putut încărca de pe GitHub API, folosesc datele locale');
+        } catch (e) { /* try the next source */ }
     }
-    // Fallback to defaults
+    console.warn('⚠️ Nu am putut încărca datele online, folosesc lista din cod');
     data = JSON.parse(JSON.stringify(DEFAULT_PROTECTED_DATA));
     nextId = Math.max(...data.map(d => d.id), 0) + 1;
 }
