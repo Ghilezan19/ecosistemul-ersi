@@ -39,29 +39,9 @@
         "image": "https://s13emagst.akamaized.net/products/75515/75514884/images/res_cfedcec7c926a95f9ee92784ab7c63a0.jpg?width=450&height=450&hash=7B179FFC72543A350502DCF043D4044F",
         "prevPrice": null,
         "checked": "2026-11-03"
-      },
-      {
-        "label": "Arctic",
-        "badge": "Cel mai ieftin",
-        "name": "Combina frigorifica Arctic AK60406E40NFMT 362 L, Full No Frost",
-        "color": "Argintiu",
-        "energyClass": "E",
-        "price": 2114.99,
-        "rrp": 2198.99,
-        "note": "",
-        "features": [
-          "362 L, Full No Frost",
-          "Fast Freeze",
-          "Display LCD",
-          "Clasa E (consum mai mare)"
-        ],
-        "link": "https://www.emag.ro/combina-frigorifica-arctic-362-l-full-nofrost-blue-tech-air-flow-dual-tech-fast-freeze-display-lcd-clasa-e-h-202-cm-argintiu-ak60406e40nfmt/pd/D32CK3MBM/",
-        "image": "https://s13emagst.akamaized.net/products/31658/31657389/images/res_0d3f755b1ff059e9b778d1d6dd3fc999.jpg?width=450&height=450&hash=7C918E0EB73EF6486E1160FF0D1BFD3F",
-        "prevPrice": null,
-        "checked": "2026-11-03"
       }
     ],
-    "selected": 2
+    "selected": 0
   },
   {
     "id": 2,
