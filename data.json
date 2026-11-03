@@ -179,29 +179,8 @@
       "Funcție grill",
       "8 programe"
     ],
-    "alternatives": [
-      {
-        "label": "Philips",
-        "badge": "Premium, cu abur",
-        "name": "Air fryer dublu Philips Seria 5000 NA552/00 cu abur, 9 L",
-        "color": "Negru",
-        "energyClass": "N/A",
-        "price": 999.9,
-        "rrp": null,
-        "note": "Resigilat: 939,99 lei",
-        "features": [
-          "9 L în 2 coșuri",
-          "Air Steam (aer cald + abur)",
-          "12 programe, ecran tactil",
-          "RapidAir Plus"
-        ],
-        "link": "https://www.emag.ro/friteuza-dubla-cu-aer-cald-si-abur-philips-airfryer-seria-5000-2-cosuri-de-gatit-capacitate-9l-afisaj-digital-ecran-tactil-12-programe-presetate-tehnologie-rapidair-plus-air-steam-culoare-negru-cu-man/pd/DQHJ1WYBM/",
-        "image": "https://s13emagst.akamaized.net/products/85665/85664866/images/res_e86e26db85357f35543f9a85f1c488e6.jpg?width=450&height=450&hash=F8175EA4A3A43ADE28C4EDF3E5A76528",
-        "prevPrice": null,
-        "checked": "2026-11-03"
-      }
-    ],
-    "selected": 1
+    "alternatives": [],
+    "selected": 0
   },
   {
     "id": 8,
