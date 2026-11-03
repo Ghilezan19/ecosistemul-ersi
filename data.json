@@ -210,45 +210,7 @@
     "id": 10,
     "section": "mici",
     "selected": 0,
-    "label": "DX118C",
-    "badge": "Cel mai ieftin, cel mai popular",
-    "name": "Aspirator vertical cu fir Deerma DX118C, 600 W, 16.000 Pa, 1,2 L",
-    "link": "https://www.emag.ro/aspirator-vertical-deerma-16-000-pa-600-w-1-2-l-76-db-alb-dx118c/pd/DLPMY0MBM/",
-    "image": "https://s13emagst.akamaized.net/products/37926/37925297/images/res_c8239a1d509ef952b366554ae4365bbe.jpg?width=450&height=450&hash=1F8A804CB9D973070C4BAD24D994704D",
-    "color": "Alb",
-    "energyClass": "N/A",
-    "price": 109.99,
-    "prevPrice": null,
-    "rrp": 144.15,
-    "note": "",
-    "checked": "2026-11-03",
-    "features": [
-      "600 W, 16.000 Pa",
-      "Recipient praf 1,2 L",
-      "Vertical + aspirator de mână",
-      "Rating 4,6 (885 review-uri)"
-    ],
     "alternatives": [
-      {
-        "label": "DX700S",
-        "badge": "2 în 1, filtru HEPA",
-        "name": "Aspirator vertical cu fir Deerma DX700S, 600 W, filtru HEPA",
-        "link": "https://www.emag.ro/aspirator-vertical-deerma-dx700s-multifunctional-putere-600w-capacitate-recipient-praf-0-8-l-cablu-4-5-m-filtru-hepa-2-75-kg-gri-dx700s/pd/D882D4MBM/",
-        "image": "https://s13emagst.akamaized.net/products/46360/46359536/images/res_daad4466785b4f3d1c927ded3bf1109d.jpg?width=450&height=450&hash=8D6BB76CE49B0AC0CFA8E86794A9B810",
-        "color": "Gri",
-        "energyClass": "N/A",
-        "price": 139.99,
-        "prevPrice": null,
-        "rrp": 180.98,
-        "note": "",
-        "checked": "2026-11-03",
-        "features": [
-          "600 W",
-          "Filtru HEPA",
-          "Cablu 4,5 m, 2,75 kg",
-          "Rating 4,65 (494 review-uri)"
-        ]
-      },
       {
         "label": "DX700 Pro",
         "badge": "Cel mai puternic",
@@ -289,6 +251,24 @@
           "Rating 4,5 (aprox. 3.000 de review-uri)"
         ]
       }
+    ],
+    "label": "DX700S",
+    "badge": "2 în 1, filtru HEPA",
+    "name": "Aspirator vertical cu fir Deerma DX700S, 600 W, filtru HEPA",
+    "link": "https://www.emag.ro/aspirator-vertical-deerma-dx700s-multifunctional-putere-600w-capacitate-recipient-praf-0-8-l-cablu-4-5-m-filtru-hepa-2-75-kg-gri-dx700s/pd/D882D4MBM/",
+    "image": "https://s13emagst.akamaized.net/products/46360/46359536/images/res_daad4466785b4f3d1c927ded3bf1109d.jpg?width=450&height=450&hash=8D6BB76CE49B0AC0CFA8E86794A9B810",
+    "color": "Gri",
+    "energyClass": "N/A",
+    "price": 139.99,
+    "prevPrice": null,
+    "rrp": 180.98,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "600 W",
+      "Filtru HEPA",
+      "Cablu 4,5 m, 2,75 kg",
+      "Rating 4,65 (494 review-uri)"
     ]
   },
   {
