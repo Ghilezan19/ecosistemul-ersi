@@ -89,7 +89,7 @@
   {
     "id": 3,
     "section": "mari",
-    "selected": 1,
+    "selected": 0,
     "label": "Bosch Serie 4",
     "name": "Masina de spalat vase incorporabila Bosch 14 seturi",
     "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-extradry-variohinge-ecosilence-drive-tab-count-status-light-home-connect-60-cm-clasa-a-sbh4ecx28e/pd/D8PMY5YBM/",
@@ -191,7 +191,7 @@
         "checked": "2026-11-03"
       }
     ],
-    "selected": 0
+    "selected": 1
   },
   {
     "id": 5,
