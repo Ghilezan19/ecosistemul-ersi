@@ -238,64 +238,45 @@ const DEFAULT_PROTECTED_DATA = [
     {
         "id": 8,
         "section": "mici",
-        "name": "Robot de bucătărie Bosch MUM58720, planetar 1000 W, bol inox 3,9 L",
-        "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-bol-inox-3-9-l-blender-1-25-l-7-viteze-impulse-mixare-planetara-3d-rosu-mum58720/pd/D3PJ32BBM/",
-        "image": "https://s13emagst.akamaized.net/products/3800/3799208/images/res_bec5fd55d1a237bd5ec379769a7577a9.jpg?width=450&height=450&hash=CC1A585D5C6D1E118C1484981F499DD8",
-        "color": "Rosu",
-        "energyClass": "N/A",
-        "price": 1199.9,
-        "prevPrice": null,
-        "rrp": 1809,
-        "note": "Resigilat: 1.129,99 lei",
-        "label": "MUM 5",
-        "badge": "Mixer planetar",
-        "checked": "2026-11-03",
         "selected": 0,
-        "features": [
-            "Mixare planetară 3D (aluat, frișcă)",
-            "1000 W, 7 viteze",
-            "Bol inox 3,9 L + blender 1,25 L"
-        ],
         "alternatives": [
             {
-                "label": "MCM 3",
-                "badge": "Procesor compact",
-                "name": "Robot de bucătărie Bosch MultiTalent 3 MCM3200W, 800 W",
-                "link": "https://www.emag.ro/robot-de-bucatarie-bosch-multitalent-3-800-w-capacitate-2-3l-blender-1l-2-trepte-de-viteza-peste-30-de-functii-gri-alb-mcm3200w/pd/DXWTJYBBM/",
-                "image": "https://s13emagst.akamaized.net/products/2332/2331368/images/res_d900b337e0dbcabd26dc57da3c58bfba.jpg?width=450&height=450&hash=5D2A25FACED532BE615073BA8E34F2D5",
-                "color": "Alb",
+                "label": "MUM 5",
+                "badge": "Mai puternic, bol inox",
+                "name": "Robot de bucătărie Bosch MUM58720, planetar 1000 W, bol inox 3,9 L",
+                "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-bol-inox-3-9-l-blender-1-25-l-7-viteze-impulse-mixare-planetara-3d-rosu-mum58720/pd/D3PJ32BBM/",
+                "image": "https://s13emagst.akamaized.net/products/3800/3799208/images/res_bec5fd55d1a237bd5ec379769a7577a9.jpg?width=450&height=450&hash=CC1A585D5C6D1E118C1484981F499DD8",
+                "color": "Rosu",
                 "energyClass": "N/A",
-                "price": 339.99,
+                "price": 1199.9,
                 "prevPrice": null,
-                "rrp": 619,
-                "note": "Resigilat: 319,99 lei",
+                "rrp": 1809,
+                "note": "Resigilat: 1.129,99 lei",
                 "checked": "2026-11-03",
                 "features": [
-                    "Tocare, feliere, răzuire (30+ funcții)",
-                    "800 W, 2 viteze",
-                    "Bol 2,3 L + blender 1 L"
-                ]
-            },
-            {
-                "label": "MUM 2",
-                "badge": "Cu blender + tocător carne",
-                "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",
-                "link": "https://www.emag.ro/robot-de-bucatarie-bosch-mum-serie-2-700-w-3-8-l-blender-1-25-l-masina-de-tocat-carne-4-trepte-viteza-alb-mums2ew40/pd/DBLM0DMBM/",
-                "image": "https://s13emagst.akamaized.net/products/34470/34469799/images/res_4f16effd21ba744ce81c1e26412075e9.jpg?width=450&height=450&hash=697D17EDF9A30DD82B7E99B84E227262",
-                "color": "Alb",
-                "energyClass": "N/A",
-                "price": 899.99,
-                "prevPrice": null,
-                "rrp": 999.99,
-                "note": "Stoc limitat pe eMAG",
-                "checked": "2026-11-03",
-                "features": [
-                    "Mixare planetară 3D, 700 W, 4 viteze",
-                    "Bol 3,8 L",
-                    "Blender 1,25 L",
-                    "Mașină de tocat carne inclusă"
+                    "Mixare planetară 3D, 1000 W, 7 viteze",
+                    "Bol inox 3,9 L",
+                    "Blender 1,25 L"
                 ]
             }
+        ],
+        "label": "MUM 2",
+        "badge": "Cu blender + tocător carne",
+        "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",
+        "link": "https://www.emag.ro/robot-de-bucatarie-bosch-mum-serie-2-700-w-3-8-l-blender-1-25-l-masina-de-tocat-carne-4-trepte-viteza-alb-mums2ew40/pd/DBLM0DMBM/",
+        "image": "https://s13emagst.akamaized.net/products/34470/34469799/images/res_4f16effd21ba744ce81c1e26412075e9.jpg?width=450&height=450&hash=697D17EDF9A30DD82B7E99B84E227262",
+        "color": "Alb",
+        "energyClass": "N/A",
+        "price": 899.99,
+        "prevPrice": null,
+        "rrp": 999.99,
+        "note": "Stoc limitat pe eMAG",
+        "checked": "2026-11-03",
+        "features": [
+            "Mixare planetară 3D, 700 W, 4 viteze",
+            "Bol 3,8 L",
+            "Blender 1,25 L",
+            "Mașină de tocat carne inclusă"
         ]
     }
 ];
