@@ -292,5 +292,26 @@
       "2 mânere detașabile (intră unele în altele)",
       "Capace ermetice 16/20 cm + capac sticlă 24 cm"
     ]
+  },
+  {
+    "id": 12,
+    "section": "vase",
+    "selected": 0,
+    "label": "Bialetti",
+    "name": "Espressor Bialetti New Moka Induction, 2 cești, negru",
+    "link": "https://altex.ro/espressor-bialetti-new-moka-induction-2tz-black/cpd/65278E899D735/",
+    "image": "https://lcdn.altex.ro/resize/media/catalog/product/6/5/2bd48d28d1c32adea0e55139a4e6434a/65278e899d735_main_b75d16c241_65278e899ddf8_92af53bd.jpg",
+    "color": "Negru",
+    "energyClass": "N/A",
+    "price": 230.99,
+    "prevPrice": null,
+    "rrp": null,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "Cafetieră moka pentru aragaz",
+      "Merge pe inducție (și pe plita Bosch)",
+      "2 cești"
+    ]
   }
 ]
