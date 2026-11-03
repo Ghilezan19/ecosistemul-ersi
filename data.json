@@ -212,25 +212,6 @@
     "selected": 0,
     "alternatives": [
       {
-        "label": "DX700 Pro",
-        "badge": "Cel mai puternic",
-        "name": "Aspirator vertical cu fir Deerma DX700 Pro, 650 W, 16.000 Pa",
-        "link": "https://www.emag.ro/aspirator-vertical-deerma-cu-fir-650w-16000pa-capacitate-colectare-0-8l-negru-dx700-pro/pd/DYZSC33BM/",
-        "image": "https://s13emagst.akamaized.net/products/89271/89270857/images/res_c9d818b823818dfddeaa6721ed098922.png?width=450&height=450&hash=B68A987B3D4FA5677241EA685337A07C",
-        "color": "Negru",
-        "energyClass": "N/A",
-        "price": 154.99,
-        "prevPrice": null,
-        "rrp": 185.13,
-        "note": "",
-        "checked": "2026-11-03",
-        "features": [
-          "650 W, 16.000 Pa",
-          "Recipient praf 0,8 L",
-          "Vertical + aspirator de mână"
-        ]
-      },
-      {
         "label": "Rowenta",
         "badge": "Aspirator clasic, foarte popular",
         "name": "Aspirator fără sac Rowenta Compact Power Cyclonic RO3731EA, 750 W, 1,5 L",
@@ -252,23 +233,22 @@
         ]
       }
     ],
-    "label": "DX700S",
-    "badge": "2 în 1, filtru HEPA",
-    "name": "Aspirator vertical cu fir Deerma DX700S, 600 W, filtru HEPA",
-    "link": "https://www.emag.ro/aspirator-vertical-deerma-dx700s-multifunctional-putere-600w-capacitate-recipient-praf-0-8-l-cablu-4-5-m-filtru-hepa-2-75-kg-gri-dx700s/pd/D882D4MBM/",
-    "image": "https://s13emagst.akamaized.net/products/46360/46359536/images/res_daad4466785b4f3d1c927ded3bf1109d.jpg?width=450&height=450&hash=8D6BB76CE49B0AC0CFA8E86794A9B810",
-    "color": "Gri",
+    "label": "DX700 Pro",
+    "badge": "Cel mai puternic",
+    "name": "Aspirator vertical cu fir Deerma DX700 Pro, 650 W, 16.000 Pa",
+    "link": "https://www.emag.ro/aspirator-vertical-deerma-cu-fir-650w-16000pa-capacitate-colectare-0-8l-negru-dx700-pro/pd/DYZSC33BM/",
+    "image": "https://s13emagst.akamaized.net/products/89271/89270857/images/res_c9d818b823818dfddeaa6721ed098922.png?width=450&height=450&hash=B68A987B3D4FA5677241EA685337A07C",
+    "color": "Negru",
     "energyClass": "N/A",
-    "price": 139.99,
+    "price": 154.99,
     "prevPrice": null,
-    "rrp": 180.98,
+    "rrp": 185.13,
     "note": "",
     "checked": "2026-11-03",
     "features": [
-      "600 W",
-      "Filtru HEPA",
-      "Cablu 4,5 m, 2,75 kg",
-      "Rating 4,65 (494 review-uri)"
+      "650 W, 16.000 Pa",
+      "Recipient praf 0,8 L",
+      "Vertical + aspirator de mână"
     ]
   },
   {
@@ -291,27 +271,6 @@
       "Cratiță 24 cm + crătițioare 16 și 20 cm",
       "2 mânere detașabile (intră unele în altele)",
       "Capace ermetice 16/20 cm + capac sticlă 24 cm"
-    ]
-  },
-  {
-    "id": 12,
-    "section": "vase",
-    "selected": 0,
-    "label": "Bialetti",
-    "name": "Espressor Bialetti New Moka Induction, 2 cești, negru",
-    "link": "https://altex.ro/espressor-bialetti-new-moka-induction-2tz-black/cpd/65278E899D735/",
-    "image": "https://lcdn.altex.ro/resize/media/catalog/product/6/5/2bd48d28d1c32adea0e55139a4e6434a/65278e899d735_main_b75d16c241_65278e899ddf8_92af53bd.jpg",
-    "color": "Negru",
-    "energyClass": "N/A",
-    "price": 230.99,
-    "prevPrice": null,
-    "rrp": null,
-    "note": "",
-    "checked": "2026-11-03",
-    "features": [
-      "Cafetieră moka pentru aragaz",
-      "Merge pe inducție (și pe plita Bosch)",
-      "2 cești"
     ]
   }
 ]
