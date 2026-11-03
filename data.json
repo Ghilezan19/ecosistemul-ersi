@@ -92,28 +92,6 @@
     "selected": 0
   },
   {
-    "id": 5,
-    "section": "mari",
-    "selected": 0,
-    "label": "Bosch Serie 6",
-    "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction",
-    "link": "https://www.emag.ro/plita-cu-inductie-bosch-serie-6-592-mm-4-zone-flexinduction-touchslider-powerboost-perfectfry-home-connect-negru-pvs631hc1e/pd/DH5BVJ3BM/",
-    "image": "https://s13emagst.akamaized.net/products/101201/101200844/images/res_2ab837dcc9a6016fdb8eb6bdea27d003.jpg?width=450&height=450&hash=EEFA6337F1D5D54F74E819A75C15ACED",
-    "color": "Negru",
-    "energyClass": "N/A",
-    "price": 2657.39,
-    "prevPrice": null,
-    "rrp": null,
-    "note": "",
-    "checked": "2026-11-03",
-    "features": [
-      "4 zone, FlexInduction (zone unite pentru vase mari)",
-      "PowerBoost",
-      "PerfectFry (senzor de prăjire)",
-      "TouchSlider + Home Connect"
-    ]
-  },
-  {
     "id": 6,
     "section": "mari",
     "alternatives": [],
@@ -136,6 +114,28 @@
     "image": "https://s13emagst.akamaized.net/products/114192/114191977/images/res_b5d4c737a686e2bf6dd86d5b7c32963b.jpg?width=450&height=450&hash=EF76D216B35B8EBA1D79E96E0738129B",
     "prevPrice": null,
     "checked": "2026-11-03"
+  },
+  {
+    "id": 5,
+    "section": "mari",
+    "selected": 0,
+    "label": "Bosch Serie 6",
+    "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction",
+    "link": "https://www.emag.ro/plita-cu-inductie-bosch-serie-6-592-mm-4-zone-flexinduction-touchslider-powerboost-perfectfry-home-connect-negru-pvs631hc1e/pd/DH5BVJ3BM/",
+    "image": "https://s13emagst.akamaized.net/products/101201/101200844/images/res_2ab837dcc9a6016fdb8eb6bdea27d003.jpg?width=450&height=450&hash=EEFA6337F1D5D54F74E819A75C15ACED",
+    "color": "Negru",
+    "energyClass": "N/A",
+    "price": 2657.39,
+    "prevPrice": null,
+    "rrp": null,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "4 zone, FlexInduction (zone unite pentru vase mari)",
+      "PowerBoost",
+      "PerfectFry (senzor de prăjire)",
+      "TouchSlider + Home Connect"
+    ]
   },
   {
     "id": 9,
