@@ -48,43 +48,23 @@
   {
     "id": 3,
     "section": "mari",
-    "selected": 1,
-    "label": "Bosch Serie 4",
-    "name": "Masina de spalat vase incorporabila Bosch 14 seturi",
-    "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-extradry-variohinge-ecosilence-drive-tab-count-status-light-home-connect-60-cm-clasa-a-sbh4ecx28e/pd/D8PMY5YBM/",
-    "image": "https://s13emagst.akamaized.net/products/81331/81330791/images/res_74be6fb877f9ab598829dd68e6626814.jpg?width=450&height=450&hash=684D2365A9E12F4541333A7ECA356A45",
+    "selected": 0,
+    "alternatives": [],
+    "label": "Bosch Serie 6",
+    "name": "Masina de spalat vase incorporabila Bosch SMV6YCX02E, 14 seturi, PerfectDry",
+    "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-clasa-a-perfectdry-silence-plus-sertar-rackmatic-info-light-tab-count-home-connect-60-cm-smv6ycx02e/pd/DRS33TYBM/",
+    "image": "https://s13emagst.akamaized.net/products/63816/63815757/images/res_29895e86dffde187378214deb82d9f64.jpg?width=450&height=450&hash=BD18EB67DCAA7F7E42294DF7E5746803",
     "color": "Incorporabil",
     "energyClass": "A",
-    "price": 4384.66,
-    "prevPrice": 2899.99,
-    "rrp": null,
-    "note": "Resigilat: 2.899,99 lei",
+    "price": 3799.99,
+    "prevPrice": null,
+    "rrp": 4399.99,
+    "note": "",
     "checked": "2026-11-03",
-    "alternatives": [
-      {
-        "label": "Bosch Serie 6",
-        "name": "Masina de spalat vase incorporabila Bosch SMV6YCX02E, 14 seturi, PerfectDry",
-        "link": "https://www.emag.ro/masina-de-spalat-vase-incorporabila-bosch-14-seturi-6-programe-clasa-a-perfectdry-silence-plus-sertar-rackmatic-info-light-tab-count-home-connect-60-cm-smv6ycx02e/pd/DRS33TYBM/",
-        "image": "https://s13emagst.akamaized.net/products/63816/63815757/images/res_29895e86dffde187378214deb82d9f64.jpg?width=450&height=450&hash=BD18EB67DCAA7F7E42294DF7E5746803",
-        "color": "Incorporabil",
-        "energyClass": "A",
-        "price": 3799.99,
-        "prevPrice": null,
-        "rrp": 4399.99,
-        "note": "",
-        "checked": "2026-11-03",
-        "features": [
-          "14 seturi, 6 programe",
-          "PerfectDry cu zeolit (uscare foarte bună)",
-          "Sertar Rackmatic + Silence Plus",
-          "Home Connect"
-        ]
-      }
-    ],
     "features": [
       "14 seturi, 6 programe",
-      "ExtraDry",
-      "VarioHinge (ușă pentru mobilier înalt)",
+      "PerfectDry cu zeolit (uscare foarte bună)",
+      "Sertar Rackmatic + Silence Plus",
       "Home Connect"
     ]
   },
