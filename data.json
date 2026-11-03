@@ -149,29 +149,8 @@
       "AutoPilot 30 rețete",
       "Ghidaje telescopice, soft close"
     ],
-    "alternatives": [
-      {
-        "label": "Bosch 66 L",
-        "badge": "Cel mai ieftin",
-        "name": "Cuptor incorporabil Bosch HBF153EB0 66 L",
-        "color": "Negru",
-        "energyClass": "A",
-        "price": 1299.99,
-        "rrp": 1599.99,
-        "note": "",
-        "features": [
-          "66 L",
-          "Convecție 3D HotAir",
-          "EcoClean Direct (doar peretele din spate)",
-          "Ghidaj telescopic"
-        ],
-        "link": "https://www.emag.ro/cuptor-incorporabil-bosch-electric-66-l-grill-autocuratare-ecoclean-direct-suport-telescopic-convectie-3d-clasa-a-negru-argintiu-hbf153eb0/pd/DTDRP6BBM/",
-        "image": "https://s13emagst.akamaized.net/products/25317/25316777/images/res_b57806128a1a216257d4c6b5c473a729.jpg?width=450&height=450&hash=8BF3DC6446E6A697B512F70E87A16CF9",
-        "prevPrice": null,
-        "checked": "2026-11-03"
-      }
-    ],
-    "selected": 1
+    "alternatives": [],
+    "selected": 0
   },
   {
     "id": 5,
