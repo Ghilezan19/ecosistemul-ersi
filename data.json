@@ -267,7 +267,50 @@
           "Recipient praf 0,8 L",
           "Vertical + aspirator de mână"
         ]
+      },
+      {
+        "label": "Rowenta",
+        "badge": "Aspirator clasic, foarte popular",
+        "name": "Aspirator fără sac Rowenta Compact Power Cyclonic RO3731EA, 750 W, 1,5 L",
+        "link": "https://www.emag.ro/aspirator-fara-sac-rowenta-compact-power-cyclonic-750-w-recipient-praf-1-5l-motor-effitech-filtru-de-inalta-eficienta-sistem-cleanexpress-raza-de-operare-8-8m-negru-albastru-ro3731ea/pd/D181S3BBM/",
+        "image": "https://s13emagst.akamaized.net/products/3301/3300004/images/res_5fa9edc1c51c68a34219df392a533592.jpg?width=450&height=450&hash=FFFDD7C1E5BB302991889B3E763556EA",
+        "color": "Negru/Albastru",
+        "energyClass": "N/A",
+        "price": 399.99,
+        "prevPrice": null,
+        "rrp": 679.99,
+        "note": "Resigilat: 349,99 lei",
+        "checked": "2026-11-03",
+        "features": [
+          "Aspirator clasic pe roți, fără sac",
+          "750 W, motor EffiTech",
+          "Recipient praf 1,5 L",
+          "Rază de lucru 8,8 m",
+          "Rating 4,5 (aprox. 3.000 de review-uri)"
+        ]
       }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "vase",
+    "selected": 0,
+    "label": "Tefal Ingenio",
+    "name": "Set Tefal Ingenio Emotion, 10 piese, mânere detașabile",
+    "link": "https://www.emag.ro/set-de-10-piese-tefal-ingenio-emotion-tigaie-22-26-cm-cratita-24-cm-craticioare-16-20-cm-capac-ermetic-16-20-cm-2-manere-detasabile-capac-sticla-24-cm-3168430338579/pd/DN928LMBM/",
+    "image": "https://s13emagst.akamaized.net/products/48862/48861527/images/res_78425b2894472bbd8a580e1d172d170c.png?width=450&height=450&hash=F45F7412E8FAF66782ACE58B5F5395E2",
+    "color": "Inox",
+    "energyClass": "N/A",
+    "price": 399.99,
+    "prevPrice": null,
+    "rrp": 499.99,
+    "note": "",
+    "checked": "2026-11-03",
+    "features": [
+      "Tigăi 22 și 26 cm",
+      "Cratiță 24 cm + crătițioare 16 și 20 cm",
+      "2 mânere detașabile (intră unele în altele)",
+      "Capace ermetice 16/20 cm + capac sticlă 24 cm"
     ]
   }
 ]

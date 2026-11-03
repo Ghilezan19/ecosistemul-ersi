@@ -682,3 +682,9 @@ body {
 .variant-tools .vt-danger:hover { border-color: var(--up); color: var(--up); }
 body.admin-mode .btn-emag { white-space: nowrap; font-size: 0.8rem; padding: 10px 8px; }
 body.admin-mode .action-btn { width: 34px; flex: none; }
+
+/* ── v16: variants wrap when there are many ── */
+.variants {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+}
