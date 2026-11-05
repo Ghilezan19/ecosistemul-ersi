@@ -119,43 +119,23 @@
     "id": 5,
     "section": "mari",
     "selected": 0,
-    "label": "Bosch Serie 6",
-    "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction",
-    "link": "https://www.evomag.ro/electrocasnice-electrocasnice-mari-plite-incorporabile/bosch-plita-incorporabila-bosch-pvs631hc1e-inductie-6900-w-4-zone-de-gatit-control-tactil-home-connect-59.2-cm-negru-4288509.html",
+    "alternatives": [],
+    "label": "eMAG",
+    "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction (eMAG)",
+    "link": "https://www.emag.ro/plita-cu-inductie-bosch-serie-6-592-mm-4-zone-flexinduction-touchslider-powerboost-perfectfry-home-connect-negru-pvs631hc1e/pd/DH5BVJ3BM/",
     "image": "https://s13emagst.akamaized.net/products/101201/101200844/images/res_2ab837dcc9a6016fdb8eb6bdea27d003.jpg?width=450&height=450&hash=EEFA6337F1D5D54F74E819A75C15ACED",
     "color": "Negru",
     "energyClass": "N/A",
-    "price": 2329.99,
-    "prevPrice": 2657.39,
+    "price": 2657.39,
+    "prevPrice": null,
     "rrp": null,
-    "note": "Cel mai ieftin găsit: evoMAG (pe eMAG 2.657,39, Vexio 2.500,99)",
+    "note": "Aceeași plită (PVS631HC1E), cumpărată de pe eMAG",
     "checked": "2026-11-03",
     "features": [
       "4 zone, FlexInduction (zone unite pentru vase mari)",
       "PowerBoost",
       "PerfectFry (senzor de prăjire)",
       "TouchSlider + Home Connect"
-    ],
-    "alternatives": [
-      {
-        "label": "eMAG",
-        "name": "Plita inductie Bosch Serie 6 PVS631HC1E, 60 cm, FlexInduction (eMAG)",
-        "link": "https://www.emag.ro/plita-cu-inductie-bosch-serie-6-592-mm-4-zone-flexinduction-touchslider-powerboost-perfectfry-home-connect-negru-pvs631hc1e/pd/DH5BVJ3BM/",
-        "image": "https://s13emagst.akamaized.net/products/101201/101200844/images/res_2ab837dcc9a6016fdb8eb6bdea27d003.jpg?width=450&height=450&hash=EEFA6337F1D5D54F74E819A75C15ACED",
-        "color": "Negru",
-        "energyClass": "N/A",
-        "price": 2657.39,
-        "prevPrice": null,
-        "rrp": null,
-        "note": "Aceeași plită (PVS631HC1E), cumpărată de pe eMAG",
-        "checked": "2026-11-03",
-        "features": [
-          "4 zone, FlexInduction (zone unite pentru vase mari)",
-          "PowerBoost",
-          "PerfectFry (senzor de prăjire)",
-          "TouchSlider + Home Connect"
-        ]
-      }
     ]
   },
   {
