@@ -688,3 +688,35 @@ body.admin-mode .action-btn { width: 34px; flex: none; }
     grid-auto-flow: row;
     grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
 }
+
+/* ── Bought price ── */
+.paid {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px;
+    font-size: 0.82rem; color: var(--text-2);
+    background: var(--down-soft); border-radius: 8px; padding: 7px 10px;
+}
+.paid strong { color: var(--text); font-weight: 700; }
+.paid-label { color: var(--down); font-weight: 600; }
+.paid-diff { font-size: 0.75rem; color: var(--text-3); }
+.paid-diff.down { color: var(--down); }
+.paid-diff.up { color: var(--up); }
+
+.paid-box {
+    margin-top: 18px; padding-top: 16px;
+    border-top: 1px solid var(--line);
+    display: grid; gap: 10px;
+}
+.paid-head { display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-2); font-weight: 500; }
+.paid-count { color: var(--text-3); font-variant-numeric: tabular-nums; }
+.paid-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.paid-grid div {
+    background: rgba(255,255,255,0.03); border: 1px solid var(--line);
+    border-radius: 12px; padding: 10px 14px; display: grid; gap: 2px; min-width: 0;
+}
+.paid-grid span { font-size: 0.7rem; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; }
+.paid-grid strong { font-size: 1.15rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.paid-grid strong.accent { color: var(--accent); }
+.paid-verdict, .paid-left { font-size: 0.82rem; color: var(--text-2); }
+.paid-verdict .down { color: var(--down); }
+.paid-verdict .up { color: var(--up); }
+.paid-verdict em { font-style: normal; color: var(--text-3); }

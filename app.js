@@ -39,7 +39,7 @@ const COLOR_MAP = {
     'Inox': '#B0B0B0',
 };
 
-const CURRENT_VERSION = 'v15';
+const CURRENT_VERSION = 'v16';
 
 // ── Admin Mode ──
 const ADMIN_PASSWORD = 'ersi2026';
@@ -587,6 +587,23 @@ function getClassBadge(cls) {
 }
 
 // ── Price delta vs previous check ──
+// ── Purchased variant: the one with a real paid price ──
+function boughtOption(item) {
+    return options(item).find(o => hasPrice(o.paid)) || null;
+}
+
+function getPaidInfo(o) {
+    if (!hasPrice(o.paid)) return '';
+    let cmp = '';
+    if (hasPrice(o.price)) {
+        const d = Number(o.paid) - Number(o.price);
+        cmp = Math.abs(d) < 0.005 ? '<span class="paid-diff">exact prețul de pe site</span>'
+            : d < 0 ? `<span class="paid-diff down">−${fmt(-d)} lei față de site</span>`
+            : `<span class="paid-diff up">+${fmt(d)} lei față de site</span>`;
+    }
+    return `<div class="paid"><span class="paid-label">✓ Cumpărat cu</span> <strong>${fmt(o.paid)} lei</strong>${cmp}</div>`;
+}
+
 function getDelta(o) {
     if (!hasPrice(o.price) || !hasPrice(o.prevPrice)) return '';
     const d = Number(o.price) - Number(o.prevPrice);
@@ -708,6 +725,7 @@ function buildCard(item, index) {
             ${chips.length ? `<div class="chips">${chips.join('')}</div>` : ''}
             ${Array.isArray(o.features) && o.features.length ? `<ul class="feats">${o.features.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
             ${o.note ? `<div class="note">${esc(o.note)}</div>` : ''}
+            ${getPaidInfo(o)}
             <div class="price-row">
                 <div>${formatPrice(o.price)}${rrp}</div>
                 ${getDelta(o)}
@@ -751,6 +769,39 @@ function renderTable() {
     saveData();
 }
 
+// ── Bought vs. site price summary ──
+function renderPaidBox() {
+    const box = document.getElementById('paidBox');
+    if (!box) return;
+    const bought = data.map(boughtOption).filter(Boolean);
+    if (!bought.length) { box.hidden = true; box.innerHTML = ''; return; }
+
+    const paid = bought.reduce((s, o) => s + Number(o.paid), 0);
+    const comparable = bought.filter(o => hasPrice(o.price));
+    const site = comparable.reduce((s, o) => s + Number(o.price), 0);
+    const paidComparable = comparable.reduce((s, o) => s + Number(o.paid), 0);
+    const diff = site - paidComparable;
+    const remaining = data.filter(i => !boughtOption(i))
+        .reduce((s, i) => s + (Number(opt(i).price) || 0), 0);
+
+    const verdict = Math.abs(diff) < 0.005 ? '<span>Ai plătit exact cât e pe site acum</span>'
+        : diff > 0 ? `<span class="down">Ai economisit <b>${fmt(diff)} lei</b></span>`
+        : `<span class="up">Ai dat <b>${fmt(-diff)} lei</b> în plus</span>`;
+
+    box.hidden = false;
+    box.innerHTML = `
+        <div class="paid-head">
+            <span>Cumpărate</span>
+            <span class="paid-count">${bought.length} din ${data.length}</span>
+        </div>
+        <div class="paid-grid">
+            <div><span>Pe site acum</span><strong>${fmt(site)} lei</strong></div>
+            <div><span>Ai plătit</span><strong class="accent">${fmt(paid)} lei</strong></div>
+        </div>
+        <p class="paid-verdict">${verdict}${comparable.length < bought.length ? ' <em>(fără produsele care nu au preț pe site)</em>' : ''}</p>
+        ${remaining > 0 ? `<p class="paid-left">Mai ai de cumpărat: <b>${fmt(remaining)} lei</b> la prețurile de pe site</p>` : ''}`;
+}
+
 // ── Update stats ──
 function updateStats() {
     const total = calculateTotal();
@@ -781,6 +832,8 @@ function updateStats() {
         document.getElementById('checkedLine').textContent =
             'Prețuri verificate pe ' + last.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
     }
+
+    renderPaidBox();
 
     // Share bar
     const bar = document.getElementById('shareBar');
@@ -825,6 +878,7 @@ function editRow(index) {
     document.getElementById('editColor').value = item.color || '';
     document.getElementById('editClass').value = item.energyClass || '';
     document.getElementById('editPrice').value = item.price !== null && item.price !== '' ? item.price : '';
+    document.getElementById('editPaid').value = hasPrice(item.paid) ? item.paid : '';
 
     document.getElementById('editModal').classList.add('active');
     setTimeout(() => document.getElementById('editName').focus(), 300);
@@ -840,6 +894,8 @@ function saveEdit() {
     }
 
     const priceVal = document.getElementById('editPrice').value;
+    const paidVal = document.getElementById('editPaid').value;
+    const paid = paidVal !== '' ? parseFloat(paidVal) : null;
 
     if (editingIndex === -1) {
         // Adding new
@@ -853,6 +909,7 @@ function saveEdit() {
             price: priceVal !== '' ? parseFloat(priceVal) : null,
             image: document.getElementById('editImage').value.trim(),
             note: document.getElementById('editNote').value.trim(),
+            paid: paid,
             checked: new Date().toISOString().slice(0, 10),
             section: 'mari',
         });
@@ -872,6 +929,7 @@ function saveEdit() {
         target.price = newPrice;
         target.image = document.getElementById('editImage').value.trim();
         target.note = document.getElementById('editNote').value.trim();
+        target.paid = paid;
         if (!target.label && pendingNewVariant) target.label = name.split(/\s+/).slice(0, 2).join(' ');
     }
 
