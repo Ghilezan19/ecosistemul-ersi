@@ -178,8 +178,8 @@
     "image": "https://s13emagst.akamaized.net/products/111974/111973944/images/res_aa04aa5056f361bd901be0a5033506cb.jpg?width=450&height=450&hash=3862B7B8960F6D41A8DAAB03C295FABF",
     "color": "Negru",
     "energyClass": "N/A",
-    "price": 1149,
-    "prevPrice": null,
+    "price": 2000,
+    "prevPrice": 1149,
     "rrp": null,
     "note": "Vândut de Mirapol (partener eMAG)",
     "checked": "2026-11-06",
@@ -188,7 +188,8 @@
       "2750 W, RapidAir",
       "Ferestre de vizualizare",
       "Panou digital cu programe"
-    ]
+    ],
+    "paid": 1051
   },
   {
     "id": 8,
