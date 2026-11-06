@@ -243,6 +243,28 @@
     "paid": 302
   },
   {
+    "id": 13,
+    "section": "mici",
+    "label": "Braun",
+    "name": "Mixer vertical Braun MQ55254M, 1000 W, tocător 500 ml, pahar 600 ml, tel",
+    "link": "https://www.emag.ro/mixer-vertical-braun-mq55254m-1000-w-25-trepte-viteza-functie-turbo-tocator-sizecontrol-500-ml-pahar-gradat-600-ml-tel-negru-inox-ro0x22111504/pd/DRG74JYBM/",
+    "image": "https://s13emagst.akamaized.net/products/72607/72606396/images/res_7e507c5830a1d012a27f3756b69acffe.jpg?width=450&height=450&hash=C1F976760541A06D7AFEA21750585920",
+    "color": "Negru/Inox",
+    "energyClass": "N/A",
+    "price": 229.99,
+    "prevPrice": null,
+    "rrp": 299.9,
+    "note": "",
+    "checked": "2026-11-06",
+    "features": [
+      "1000 W, 25 trepte de viteză + Turbo",
+      "Tocător SizeControl 500 ml",
+      "Pahar gradat 600 ml + tel",
+      "Cuțit pentru zdrobit gheață"
+    ],
+    "selected": 0
+  },
+  {
     "id": 11,
     "section": "vase",
     "selected": 0,
