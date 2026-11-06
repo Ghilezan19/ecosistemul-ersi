@@ -57,11 +57,11 @@
     "image": "https://s13emagst.akamaized.net/products/111916/111915354/images/res_d29d58a0af820fb05109f799e0d7529f.jpg?width=450&height=450&hash=E3E5D1972FE0B6A9EBAD8E8DBDDEB7E0",
     "color": "Argintiu",
     "energyClass": "C",
-    "price": 2879.99,
-    "prevPrice": 2899.99,
+    "price": 2768,
+    "prevPrice": 2879.99,
     "rrp": null,
     "note": "",
-    "checked": "2026-11-03",
+    "checked": "2026-11-06",
     "features": [
       "375 L, No Frost",
       "Compresor Smart Inverter",
@@ -69,7 +69,8 @@
       "Fresh Converter (zonă flexibilă)"
     ],
     "alternatives": [],
-    "selected": 0
+    "selected": 0,
+    "paid": null
   },
   {
     "id": 3,
