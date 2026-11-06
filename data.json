@@ -252,17 +252,18 @@
     "image": "https://s13emagst.akamaized.net/products/48862/48861527/images/res_78425b2894472bbd8a580e1d172d170c.png?width=450&height=450&hash=F45F7412E8FAF66782ACE58B5F5395E2",
     "color": "Inox",
     "energyClass": "N/A",
-    "price": 399.99,
-    "prevPrice": null,
+    "price": 899,
+    "prevPrice": 399.99,
     "rrp": 499.99,
     "note": "",
-    "checked": "2026-11-03",
+    "checked": "2026-11-06",
     "features": [
       "Tigăi 22 și 26 cm",
       "Cratiță 24 cm + crătițioare 16 și 20 cm",
       "2 mânere detașabile (intră unele în altele)",
       "Capace ermetice 16/20 cm + capac sticlă 24 cm"
-    ]
+    ],
+    "paid": 362
   },
   {
     "id": 12,
