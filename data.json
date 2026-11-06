@@ -251,8 +251,8 @@
     "image": "https://s13emagst.akamaized.net/products/72607/72606396/images/res_7e507c5830a1d012a27f3756b69acffe.jpg?width=450&height=450&hash=C1F976760541A06D7AFEA21750585920",
     "color": "Negru/Inox",
     "energyClass": "N/A",
-    "price": 229.99,
-    "prevPrice": null,
+    "price": 299,
+    "prevPrice": 229.99,
     "rrp": 299.9,
     "note": "",
     "checked": "2026-11-06",
@@ -262,7 +262,8 @@
       "Pahar gradat 600 ml + tel",
       "Cuțit pentru zdrobit gheață"
     ],
-    "selected": 0
+    "selected": 0,
+    "paid": 231
   },
   {
     "id": 11,
