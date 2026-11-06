@@ -170,46 +170,25 @@
   {
     "id": 7,
     "section": "mici",
-    "label": "Tefal",
-    "name": "Air fryer dublu Tefal Dual Easy Fry & Grill EY905B10, 8.3 L, 2700 W",
-    "link": "https://www.emag.ro/friteuza-dubla-cu-aer-cald-tefal-dual-easy-fry-grill-air-fryer-2700-w-capacitate-8-3-l-functie-grill-8-programe-vase-detasabile-antiaderente-tehnologie-extra-crisp-temperatura-reglabila-40-200-c-displ/pd/DGBY1YYBM/",
-    "image": "https://s13emagst.akamaized.net/products/59793/59792488/images/res_d5d1a78601788337d85d837cc1dc6cbd.jpg?width=450&height=450&hash=97FBE05402D14B0578F7F413C7B0C9F2",
-    "color": "Gri",
+    "alternatives": [],
+    "selected": 0,
+    "label": "Philips 4000",
+    "name": "Friteuza cu aer cald dubla Philips NA462/70 Airfryer Seria 4000, 10 L, 2750 W",
+    "link": "https://www.emag.ro/friteuza-cu-aer-cald-dubla-philips-airfryer-seria-4000-10-l-2750w-negru-na462-70/pd/DZ2CT83BM/",
+    "image": "https://s13emagst.akamaized.net/products/111974/111973944/images/res_aa04aa5056f361bd901be0a5033506cb.jpg?width=450&height=450&hash=3862B7B8960F6D41A8DAAB03C295FABF",
+    "color": "Negru",
     "energyClass": "N/A",
-    "price": 999,
-    "prevPrice": 569.99,
-    "rrp": 1349.99,
-    "note": "Resigilat: 529,99 lei",
+    "price": 1149,
+    "prevPrice": null,
+    "rrp": null,
+    "note": "Vândut de Mirapol (partener eMAG)",
     "checked": "2026-11-06",
     "features": [
-      "8,3 L în 2 sertare",
-      "2700 W",
-      "Funcție grill",
-      "8 programe"
-    ],
-    "alternatives": [
-      {
-        "label": "Philips 4000",
-        "name": "Friteuza cu aer cald dubla Philips NA462/70 Airfryer Seria 4000, 10 L, 2750 W",
-        "link": "https://www.emag.ro/friteuza-cu-aer-cald-dubla-philips-airfryer-seria-4000-10-l-2750w-negru-na462-70/pd/DZ2CT83BM/",
-        "image": "https://s13emagst.akamaized.net/products/111974/111973944/images/res_aa04aa5056f361bd901be0a5033506cb.jpg?width=450&height=450&hash=3862B7B8960F6D41A8DAAB03C295FABF",
-        "color": "Negru",
-        "energyClass": "N/A",
-        "price": 1149,
-        "prevPrice": null,
-        "rrp": null,
-        "note": "Vândut de Mirapol (partener eMAG)",
-        "checked": "2026-11-06",
-        "features": [
-          "10 L, două sertare (dublă)",
-          "2750 W, RapidAir",
-          "Ferestre de vizualizare",
-          "Panou digital cu programe"
-        ]
-      }
-    ],
-    "selected": 0,
-    "paid": 611
+      "10 L, două sertare (dublă)",
+      "2750 W, RapidAir",
+      "Ferestre de vizualizare",
+      "Panou digital cu programe"
+    ]
   },
   {
     "id": 8,
