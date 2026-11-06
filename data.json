@@ -187,7 +187,27 @@
       "Funcție grill",
       "8 programe"
     ],
-    "alternatives": [],
+    "alternatives": [
+      {
+        "label": "Philips 4000",
+        "name": "Friteuza cu aer cald dubla Philips NA462/70 Airfryer Seria 4000, 10 L, 2750 W",
+        "link": "https://www.emag.ro/friteuza-cu-aer-cald-dubla-philips-airfryer-seria-4000-10-l-2750w-negru-na462-70/pd/DZ2CT83BM/",
+        "image": "https://s13emagst.akamaized.net/products/111974/111973944/images/res_aa04aa5056f361bd901be0a5033506cb.jpg?width=450&height=450&hash=3862B7B8960F6D41A8DAAB03C295FABF",
+        "color": "Negru",
+        "energyClass": "N/A",
+        "price": 1149,
+        "prevPrice": null,
+        "rrp": null,
+        "note": "Vândut de Mirapol (partener eMAG)",
+        "checked": "2026-11-06",
+        "features": [
+          "10 L, două sertare (dublă)",
+          "2750 W, RapidAir",
+          "Ferestre de vizualizare",
+          "Panou digital cu programe"
+        ]
+      }
+    ],
     "selected": 0,
     "paid": 611
   },
@@ -195,7 +215,27 @@
     "id": 8,
     "section": "mici",
     "selected": 0,
-    "alternatives": [],
+    "alternatives": [
+      {
+        "label": "MUM5 3D",
+        "name": "Robot de bucatarie Bosch MUM5935B, 1000 W, 7 viteze, bol 3.9 l, blender, masina de tocat",
+        "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-7-viteze-bol-3-9-l-blender-masina-de-tocat-mixare-planetara-3d-argintiu-negru-mum5935b/pd/D6TNVK3BM/",
+        "image": "https://s13emagst.akamaized.net/products/93821/93820752/images/res_8cd94d6d34f6ba5c63291b39258a1ff9.jpg?width=450&height=450&hash=161D6D174EA8C313B0AF5FA2F4B6C374",
+        "color": "Argintiu/Negru",
+        "energyClass": "N/A",
+        "price": 2399.99,
+        "prevPrice": null,
+        "rrp": null,
+        "note": "Black Friday 1.049,99 lei – stoc epuizat la acel preț",
+        "checked": "2026-11-06",
+        "features": [
+          "1000 W, 7 viteze, mixare planetară 3D",
+          "Bol inox 3,9 L",
+          "Blender + mașină de tocat",
+          "Storcător citrice, discuri feliere/răzuire"
+        ]
+      }
+    ],
     "label": "MUM 2",
     "badge": "Cu blender + tocător carne",
     "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",
