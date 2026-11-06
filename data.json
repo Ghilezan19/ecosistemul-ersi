@@ -202,8 +202,8 @@
     "image": "https://s13emagst.akamaized.net/products/93821/93820752/images/res_8cd94d6d34f6ba5c63291b39258a1ff9.jpg?width=450&height=450&hash=161D6D174EA8C313B0AF5FA2F4B6C374",
     "color": "Argintiu/Negru",
     "energyClass": "N/A",
-    "price": 2399.99,
-    "prevPrice": null,
+    "price": 2000,
+    "prevPrice": 2399.99,
     "rrp": null,
     "note": "Black Friday 1.049,99 lei – stoc epuizat la acel preț",
     "checked": "2026-11-06",
@@ -212,7 +212,8 @@
       "Bol inox 3,9 L",
       "Blender + mașină de tocat",
       "Storcător citrice, discuri feliere/răzuire"
-    ]
+    ],
+    "paid": 1051
   },
   {
     "id": 10,
