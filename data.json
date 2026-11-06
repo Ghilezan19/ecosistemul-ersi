@@ -285,7 +285,28 @@
       "2 mânere detașabile (intră unele în altele)",
       "Capace ermetice 16/20 cm + capac sticlă 24 cm"
     ],
-    "paid": 362
+    "paid": 362,
+    "alternatives": [
+      {
+        "label": "13 piese",
+        "name": "Set 13 piese Tefal Ingenio Emotion: oale 16/20, tigăi 22/24/28, wok 26, inducție",
+        "link": "https://www.emag.ro/set-13-piese-tefal-ingenio-emotion-oala-16-20-cm-tigaie-22-24-28-cm-wok-26-cm-2-manere-detasabile-capace-sticla-16-20-24-cm-capace-ermetice-16-20-cm-invelis-antiaderent-inductie-argintiu-3168430339880/pd/DDC64ZYBM/",
+        "image": "https://s13emagst.akamaized.net/products/78169/78168366/images/res_e55aa6b60dd596163445ceb5fef599cb.jpg?width=450&height=450&hash=2AE9512DB7F09C9565E2B6FB6617EF99",
+        "color": "Argintiu",
+        "energyClass": "N/A",
+        "price": 1198.75,
+        "prevPrice": null,
+        "rrp": null,
+        "note": "Black Friday 359,99 lei – stoc epuizat la acel preț; vândut de Brico",
+        "checked": "2026-11-06",
+        "features": [
+          "Oale 16 / 20 cm, tigăi 22 / 24 / 28 cm, wok 26 cm",
+          "2 mânere detașabile",
+          "Capace sticlă 16 / 20 / 24 + ermetice 16 / 20",
+          "Antiaderent, compatibil inducție"
+        ]
+      }
+    ]
   },
   {
     "id": 12,
