@@ -195,46 +195,24 @@
     "id": 8,
     "section": "mici",
     "selected": 0,
-    "alternatives": [
-      {
-        "label": "MUM5 3D",
-        "name": "Robot de bucatarie Bosch MUM5935B, 1000 W, 7 viteze, bol 3.9 l, blender, masina de tocat",
-        "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-7-viteze-bol-3-9-l-blender-masina-de-tocat-mixare-planetara-3d-argintiu-negru-mum5935b/pd/D6TNVK3BM/",
-        "image": "https://s13emagst.akamaized.net/products/93821/93820752/images/res_8cd94d6d34f6ba5c63291b39258a1ff9.jpg?width=450&height=450&hash=161D6D174EA8C313B0AF5FA2F4B6C374",
-        "color": "Argintiu/Negru",
-        "energyClass": "N/A",
-        "price": 2399.99,
-        "prevPrice": null,
-        "rrp": null,
-        "note": "Black Friday 1.049,99 lei – stoc epuizat la acel preț",
-        "checked": "2026-11-06",
-        "features": [
-          "1000 W, 7 viteze, mixare planetară 3D",
-          "Bol inox 3,9 L",
-          "Blender + mașină de tocat",
-          "Storcător citrice, discuri feliere/răzuire"
-        ]
-      }
-    ],
-    "label": "MUM 2",
-    "badge": "Cu blender + tocător carne",
-    "name": "Robot de bucătărie Bosch MUM Serie 2 MUMS2EW40, 700 W, cu blender și mașină de tocat",
-    "link": "https://www.emag.ro/robot-de-bucatarie-bosch-mum-serie-2-700-w-3-8-l-blender-1-25-l-masina-de-tocat-carne-4-trepte-viteza-alb-mums2ew40/pd/DBLM0DMBM/",
-    "image": "https://s13emagst.akamaized.net/products/34470/34469799/images/res_4f16effd21ba744ce81c1e26412075e9.jpg?width=450&height=450&hash=697D17EDF9A30DD82B7E99B84E227262",
-    "color": "Alb",
+    "alternatives": [],
+    "label": "MUM5 3D",
+    "name": "Robot de bucatarie Bosch MUM5935B, 1000 W, 7 viteze, bol 3.9 l, blender, masina de tocat",
+    "link": "https://www.emag.ro/robot-de-bucatarie-bosch-1000-w-7-viteze-bol-3-9-l-blender-masina-de-tocat-mixare-planetara-3d-argintiu-negru-mum5935b/pd/D6TNVK3BM/",
+    "image": "https://s13emagst.akamaized.net/products/93821/93820752/images/res_8cd94d6d34f6ba5c63291b39258a1ff9.jpg?width=450&height=450&hash=161D6D174EA8C313B0AF5FA2F4B6C374",
+    "color": "Argintiu/Negru",
     "energyClass": "N/A",
-    "price": 899.99,
+    "price": 2399.99,
     "prevPrice": null,
-    "rrp": 999.99,
-    "note": "Stoc limitat pe eMAG",
-    "checked": "2026-11-03",
+    "rrp": null,
+    "note": "Black Friday 1.049,99 lei – stoc epuizat la acel preț",
+    "checked": "2026-11-06",
     "features": [
-      "Mixare planetară 3D, 700 W, 4 viteze",
-      "Bol 3,8 L",
-      "Blender 1,25 L",
-      "Mașină de tocat carne inclusă"
-    ],
-    "paid": 1051
+      "1000 W, 7 viteze, mixare planetară 3D",
+      "Bol inox 3,9 L",
+      "Blender + mașină de tocat",
+      "Storcător citrice, discuri feliere/răzuire"
+    ]
   },
   {
     "id": 10,
